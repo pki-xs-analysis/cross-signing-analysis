@@ -1,0 +1,744 @@
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            25:75:7e:64:cf:89:8a:a2:d0:d5:36:8c:85:ea:4f:63:af:31:c6:69
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = Australian Defence Enterprise Root CA
+        Validity
+            Not Before: Jul 12 00:08:34 2018 GMT
+            Not After : Nov 10 23:44:40 2026 GMT
+        Subject: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = Australian Defence Enterprise LowSide CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c9:06:08:4c:cb:a1:f3:67:2d:82:57:9f:4d:be:
+                    22:05:9c:43:f0:cf:60:43:a8:3a:56:ea:75:a8:7c:
+                    2a:60:15:61:06:d8:a9:ce:a6:fc:0c:e4:dd:d6:21:
+                    24:43:f9:b6:3a:a7:65:bc:82:b5:b0:15:ad:e3:c3:
+                    b6:54:3e:ca:ce:d7:4e:55:ff:63:56:15:0b:30:2d:
+                    6a:c8:90:63:81:42:6b:1a:62:08:9f:de:f5:03:b4:
+                    b9:8e:0c:23:67:ba:0b:92:34:b6:2e:24:11:cf:13:
+                    00:82:1f:34:f2:fc:d9:ef:21:c0:b8:dc:0e:d9:ae:
+                    34:c1:aa:70:6e:55:d7:cd:e5:57:e9:22:32:4f:fc:
+                    aa:24:b0:45:31:74:6b:6e:18:22:5c:7b:40:bd:ea:
+                    3f:fc:12:49:67:9d:dd:ed:0c:b2:ef:42:8d:7f:31:
+                    48:69:e1:7a:46:e0:e9:46:75:4d:3f:bc:93:ff:6f:
+                    d1:77:9e:55:86:55:a0:b6:fc:5b:37:b7:ba:55:31:
+                    b0:e2:a2:01:cb:d8:1a:03:0e:ef:b1:59:9f:8d:f8:
+                    13:6b:9b:cb:cd:b4:75:4c:0a:b9:76:a4:a9:b1:33:
+                    d3:de:a5:75:07:a9:de:e9:6f:d9:82:83:b6:8a:b2:
+                    6c:f0:68:a2:9c:83:0c:05:93:f5:df:ae:5b:3d:3a:
+                    41:f7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Certificate Policies: 
+                Policy: 1.2.36.1.334.1.1.1.10
+                  CPS: http://crl.defence.gov.au/pki
+                Policy: X509v3 Any Policy
+                Policy: 1.2.36.1.334.1.2.1.1
+                Policy: 1.2.36.1.334.1.2.1.2
+                Policy: 1.2.36.1.334.1.2.1.3
+                Policy: 1.2.36.1.334.1.2.1.4
+                Policy: 1.2.36.1.334.1.2.2.1
+                Policy: 1.2.36.1.334.1.2.2.2
+                Policy: 1.2.36.1.334.1.2.2.3
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.defence.gov.au
+                CA Issuers - URI:http://crl.defence.gov.au/pki/certificates/ADERCA
+                CA Issuers - URI:ldap://dir.defence.gov.au/cn=Australian%20Defence%20Enterprise%20Root%20CA,ou=CAs,ou=PKI,ou=DoD,o=GOV,c=AU?cACertificate;binary
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:07:1C:3D:0C:41:C2:F1:84:BA:F9:01:48:A5:13:55:0C:22:E4:D7:FF
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.defence.gov.au/pki/crl/ADERCA.crl
+
+                Full Name:
+                  URI:ldap://dir.defence.gov.au/cn=Australian%20Defence%20Enterprise%20Root%20CA,ou=CAs,ou=PKI,ou=DoD,o=GOV,c=AU?certificateRevocationList
+
+            X509v3 Subject Key Identifier: 
+                02:45:5E:C6:96:6C:3F:9E:29:32:49:5B:44:96:3C:FF:D5:9A:B6:AA
+    Signature Algorithm: sha256WithRSAEncryption
+         5a:8f:45:a5:78:a1:83:06:98:63:2f:b9:2f:95:11:4b:bf:55:
+         5d:8c:bc:db:73:05:66:59:ab:cb:90:22:23:cd:3f:15:16:6c:
+         89:fe:b7:12:50:f8:4a:c3:40:44:22:53:d8:18:ae:0a:6d:bd:
+         34:4d:59:89:56:47:0b:a6:a2:e6:29:d2:df:e1:90:f8:25:aa:
+         ff:1a:85:b0:bb:d2:c7:20:ac:a2:c5:93:00:70:bc:68:c9:a5:
+         56:41:f3:88:68:76:52:b6:30:79:1a:89:b8:df:dc:f0:9f:87:
+         66:fc:d3:60:ba:66:9d:72:2c:21:66:9d:24:6d:d9:00:7d:02:
+         95:82:64:8a:48:fd:da:8b:82:7a:c1:e6:87:dc:ac:88:83:9d:
+         64:15:a4:0a:3d:d9:4a:ff:a9:93:92:bf:24:9e:f1:ae:9a:30:
+         76:e1:9e:ac:09:1f:2a:37:ad:7d:ee:ad:46:80:4e:3e:ae:31:
+         63:5b:c2:40:9f:0f:2f:81:93:e3:5e:18:ba:b7:e2:a8:6c:d0:
+         73:4c:95:17:5c:53:b2:b4:0b:fb:f0:b7:19:3b:7e:31:b3:2d:
+         6c:ef:be:a6:e0:c6:cc:15:8e:d2:c0:e8:2f:1c:ff:3a:39:93:
+         09:01:6e:33:e3:42:54:c3:9d:e7:13:60:4b:67:81:b2:92:e2:
+         ed:f6:0f:67
+-----BEGIN CERTIFICATE-----
+MIIGazCCBVOgAwIBAgIUJXV+ZM+JiqLQ1TaMhepPY68xxmkwDQYJKoZIhvcNAQEL
+BQAwdTELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEuMCwGA1UEAxMlQXVzdHJhbGlhbiBE
+ZWZlbmNlIEVudGVycHJpc2UgUm9vdCBDQTAeFw0xODA3MTIwMDA4MzRaFw0yNjEx
+MTAyMzQ0NDBaMHgxCzAJBgNVBAYTAkFVMQwwCgYDVQQKEwNHT1YxDDAKBgNVBAsT
+A0RvRDEMMAoGA1UECxMDUEtJMQwwCgYDVQQLEwNDQXMxMTAvBgNVBAMTKEF1c3Ry
+YWxpYW4gRGVmZW5jZSBFbnRlcnByaXNlIExvd1NpZGUgQ0EwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDJBghMy6HzZy2CV59NviIFnEPwz2BDqDpW6nWo
+fCpgFWEG2KnOpvwM5N3WISRD+bY6p2W8grWwFa3jw7ZUPsrO105V/2NWFQswLWrI
+kGOBQmsaYgif3vUDtLmODCNnuguSNLYuJBHPEwCCHzTy/NnvIcC43A7ZrjTBqnBu
+VdfN5VfpIjJP/KoksEUxdGtuGCJce0C96j/8Eklnnd3tDLLvQo1/MUhp4XpG4OlG
+dU0/vJP/b9F3nlWGVaC2/Fs3t7pVMbDiogHL2BoDDu+xWZ+N+BNrm8vNtHVMCrl2
+pKmxM9PepXUHqd7pb9mCg7aKsmzwaKKcgwwFk/Xfrls9OkH3AgMBAAGjggLuMIIC
+6jASBgNVHRMBAf8ECDAGAQH/AgEAMIGoBgNVHSAEgaAwgZ0wOAYJKiQBgk4BAQEK
+MCswKQYIKwYBBQUHAgEWHWh0dHA6Ly9jcmwuZGVmZW5jZS5nb3YuYXUvcGtpMAYG
+BFUdIAAwCwYJKiQBgk4BAgEBMAsGCSokAYJOAQIBAjALBgkqJAGCTgECAQMwCwYJ
+KiQBgk4BAgEEMAsGCSokAYJOAQICATALBgkqJAGCTgECAgIwCwYJKiQBgk4BAgID
+MIIBBQYIKwYBBQUHAQEEgfgwgfUwJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwLmRl
+ZmVuY2UuZ292LmF1MD0GCCsGAQUFBzAChjFodHRwOi8vY3JsLmRlZmVuY2UuZ292
+LmF1L3BraS9jZXJ0aWZpY2F0ZXMvQURFUkNBMIGLBggrBgEFBQcwAoZ/bGRhcDov
+L2Rpci5kZWZlbmNlLmdvdi5hdS9jbj1BdXN0cmFsaWFuJTIwRGVmZW5jZSUyMEVu
+dGVycHJpc2UlMjBSb290JTIwQ0Esb3U9Q0FzLG91PVBLSSxvdT1Eb0Qsbz1HT1Ys
+Yz1BVT9jQUNlcnRpZmljYXRlO2JpbmFyeTAOBgNVHQ8BAf8EBAMCAcYwHwYDVR0j
+BBgwFoAUBxw9DEHC8YS6+QFIpRNVDCLk1/8wgc8GA1UdHwSBxzCBxDAyoDCgLoYs
+aHR0cDovL2NybC5kZWZlbmNlLmdvdi5hdS9wa2kvY3JsL0FERVJDQS5jcmwwgY2g
+gYqggYeGgYRsZGFwOi8vZGlyLmRlZmVuY2UuZ292LmF1L2NuPUF1c3RyYWxpYW4l
+MjBEZWZlbmNlJTIwRW50ZXJwcmlzZSUyMFJvb3QlMjBDQSxvdT1DQXMsb3U9UEtJ
+LG91PURvRCxvPUdPVixjPUFVP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwHQYD
+VR0OBBYEFAJFXsaWbD+eKTJJW0SWPP/VmraqMA0GCSqGSIb3DQEBCwUAA4IBAQBa
+j0WleKGDBphjL7kvlRFLv1VdjLzbcwVmWavLkCIjzT8VFmyJ/rcSUPhKw0BEIlPY
+GK4Kbb00TVmJVkcLpqLmKdLf4ZD4Jar/GoWwu9LHIKyixZMAcLxoyaVWQfOIaHZS
+tjB5Gom439zwn4dm/NNgumadciwhZp0kbdkAfQKVgmSKSP3ai4J6weaH3KyIg51k
+FaQKPdlK/6mTkr8knvGumjB24Z6sCR8qN6197q1GgE4+rjFjW8JAnw8vgZPjXhi6
+t+KobNBzTJUXXFOytAv78LcZO34xsy1s776m4MbMFY7SwOgvHP86OZMJAW4z40JU
+w53nE2BLZ4GykuLt9g9n
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 96 (0x60)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA01
+        Validity
+            Not Before: Aug 30 23:59:25 2009 GMT
+            Not After : Aug 30 23:58:42 2019 GMT
+        Subject: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA012
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:b1:5c:e2:bf:b9:b9:52:9b:53:0b:a4:2b:37:01:
+                    5b:25:a0:38:10:9d:5f:a1:78:5a:ca:a4:a5:12:21:
+                    b1:39:3a:58:a2:ac:41:1b:be:3b:bb:7c:17:67:be:
+                    6c:df:86:9d:44:29:a0:26:25:78:c8:fd:8d:e6:78:
+                    66:47:f3:51:04:61:7d:46:bb:1b:f6:c3:e3:1a:a1:
+                    18:e2:43:f3:dd:1c:02:d9:38:41:e5:e4:c7:22:d5:
+                    f2:49:02:57:23:e1:0c:30:e6:62:68:43:94:33:ad:
+                    ff:dc:85:dd:ec:55:7b:95:2a:69:57:3a:20:d2:a7:
+                    b8:f8:78:d5:3f:a4:1c:64:c9:c1:6f:11:fe:5c:e9:
+                    a6:0e:2f:11:d6:f2:ae:28:84:d6:f7:9a:de:8c:55:
+                    6d:a4:03:01:f6:a9:23:77:8b:58:86:21:47:61:8a:
+                    9c:25:fd:6c:f1:53:32:20:7a:97:03:c2:a0:05:5c:
+                    3a:9a:5e:a2:c2:c5:1e:d5:a7:0d:48:d9:3a:b2:da:
+                    e1:11:a1:3d:0b:d8:d6:c4:c1:64:61:cb:1d:96:a7:
+                    1f:ba:91:d0:4b:9f:c8:9c:d1:cf:e3:3f:55:a1:50:
+                    5d:28:38:be:6f:a7:ee:5c:ad:2e:e8:a2:ed:ac:9d:
+                    0d:53:7a:b9:56:f2:c8:d4:d8:60:e4:8a:1d:a3:ba:
+                    6b:df:e2:7a:b3:b3:a6:5f:1f:49:10:77:86:bd:2f:
+                    08:72:06:83:64:31:84:35:88:20:60:b7:21:98:25:
+                    16:11:bc:3c:b1:a4:33:52:fc:ab:d5:f1:cc:c0:34:
+                    2d:d0:10:1a:75:be:c7:8b:90:c7:cd:e9:5a:ca:19:
+                    07:ad:9c:79:c3:58:d5:48:4e:14:a8:a5:bc:4b:46:
+                    49:6f:ed:12:48:10:c5:f9:c0:7e:d1:8b:b3:66:08:
+                    e8:10:b6:34:91:df:c9:97:3e:df:ef:19:fe:6d:8e:
+                    7d:1d:8a:05:6c:64:5a:24:4c:f0:ce:f8:8b:9a:05:
+                    e9:57:f1:6f:74:83:4d:56:3a:aa:20:55:6b:ad:c0:
+                    95:23:50:18:82:33:e3:74:1d:53:e2:44:fc:d4:f0:
+                    d4:ec:7b:d7:39:20:43:6c:2b:66:28:ac:63:ae:f5:
+                    69:c1:5c:81:b0:82:61:12:30:b5:fc:3a:4b:c3:8e:
+                    f7:d5:2d:7c:aa:5f:ee:07:40:a5:8f:24:ac:2b:dc:
+                    a9:36:4a:fa:89:a6:77:f6:56:0d:c9:36:65:44:63:
+                    75:42:96:4c:21:b8:c8:97:72:44:b5:aa:0f:77:f2:
+                    af:93:04:74:52:e6:5c:9f:86:00:79:a0:0f:a9:ba:
+                    f1:ee:f4:df:5b:ba:eb:0d:a8:2b:43:c8:33:89:81:
+                    91:b3:77
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:TRUE, pathlen:0
+            X509v3 Certificate Policies: 
+                Policy: 1.2.36.1334.1.5.2.1
+
+            Authority Information Access: 
+                OCSP - URI:http://www.defence.gov.au/pki/certificates/ADOCA01.crt
+                OCSP - URI:ldap:///CN=ADOCA01,CN=AIA,CN=Public Key Services,CN=Services,CN=Configuration,DC=DRNSCHEMA,DC=mil,DC=au
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:D7:41:B6:00:75:8D:F0:D1:CA:B9:6A:D6:01:D5:80:7A:9B:F0:71:FF
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.defence.gov.au/pki/crl/ADOCA01.crl
+
+                Full Name:
+                  URI:ldap://dir.defence.gov.au/cn%3dADOCA01,ou%3dCAs,ou%3dPKI,ou%3dDoD,o%3dGOV,c%3dAU?certificateRevocationList
+
+                Full Name:
+                  URI:ldap:///cn%3dADOCA01,cn%3dCDP,cn%3dPublic%20Key%20Services,cn%3dServices,cn%3dConfiguration,dc%3dDRNSCHEMA,dc%3dmil,dc%3dau?certificateRevocationList
+
+            X509v3 Subject Key Identifier: 
+                49:8C:D8:B2:BF:96:0E:66:98:32:29:51:63:33:E8:B9:17:B1:1E:AC
+    Signature Algorithm: sha1WithRSAEncryption
+         90:1a:17:d0:07:35:c6:1a:41:dc:29:ef:49:a1:8e:b0:90:78:
+         31:45:df:08:71:4c:8e:f9:a6:38:6e:65:fb:e1:19:56:af:ce:
+         63:d0:a8:38:db:17:68:f3:fb:8d:e4:0e:d3:c8:af:3a:09:9a:
+         0d:d9:7d:66:fa:64:1e:71:1b:0a:e9:ff:f3:6a:e3:d7:17:d1:
+         69:dc:fa:48:bf:92:2d:ab:91:08:b7:a9:fd:2a:42:8c:d6:d8:
+         54:5b:40:96:b9:21:49:60:1e:3e:e8:a6:87:69:a3:5f:55:41:
+         36:69:2e:c6:6e:6a:3e:d6:5f:3a:3f:e9:a9:f5:51:9f:97:01:
+         5f:a1:6c:0d:ab:5a:ab:89:a3:8c:21:a0:51:4b:62:af:ef:c6:
+         bf:a6:f0:91:56:a1:14:5e:e8:9f:91:71:28:ad:08:b3:4a:4e:
+         09:1e:b9:a9:bb:46:06:6e:2c:31:82:2d:51:71:64:12:86:bc:
+         38:74:3d:c1:e5:7d:86:7a:3e:54:f0:94:a0:4d:95:a3:84:2a:
+         af:94:2a:80:c3:23:1e:53:9e:6f:19:84:15:50:c2:ce:f8:44:
+         4f:cb:43:30:3d:be:b8:d0:56:ee:88:95:3f:13:96:42:9d:f4:
+         bf:f1:c5:92:0f:25:fd:f0:3e:44:8f:d5:0f:6e:0b:8e:c2:dc:
+         9c:65:9f:ad:d5:7d:11:04:4d:95:18:9b:99:6a:98:02:73:77:
+         6e:9e:ef:96:f9:86:47:f7:67:3c:b7:4a:41:6a:08:6a:aa:08:
+         8c:a9:cf:30:fb:25:79:82:6b:63:5b:00:99:9d:72:1a:7c:00:
+         15:b5:63:76:f1:9b:53:fc:b3:31:f1:4d:ca:fc:19:74:14:b9:
+         b3:bf:e2:5c:e6:6b:e3:f8:1a:23:f8:80:2c:f1:7b:55:43:b6:
+         04:db:80:5e:6d:4f:66:95:7e:f1:8b:65:2c:8d:15:8c:88:f3:
+         2f:ad:9f:47:65:50:2b:4f:1b:e7:0c:a6:13:ff:10:58:28:07:
+         cd:1e:88:d5:81:ed:78:83:9d:a0:5a:11:15:1d:c1:9a:33:c4:
+         5b:f5:7d:79:3f:7d:e5:1c:57:76:d5:69:7c:f2:94:e5:a2:f2:
+         b6:ad:41:4e:7e:89:bf:e8:a4:53:fa:06:d9:23:56:e1:5d:28:
+         d1:b5:ed:55:0e:8a:1e:28:a4:5f:b3:56:20:c6:88:da:0f:7b:
+         a5:39:8a:18:3e:36:07:95:1c:87:58:22:d1:b8:d8:a5:57:d2:
+         03:34:6e:a9:ab:bc:f2:99:d1:53:a9:bd:29:e3:66:0c:03:36:
+         ef:ca:1a:9a:35:a5:b1:83:06:da:d8:bb:d3:f8:fb:b1:ab:01:
+         7b:47:b5:ba:65:e0:c4:ee
+-----BEGIN CERTIFICATE-----
+MIIHzTCCBbWgAwIBAgIBYDANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJBVTEM
+MAoGA1UEChMDR09WMQwwCgYDVQQLEwNEb0QxDDAKBgNVBAsTA1BLSTEMMAoGA1UE
+CxMDQ0FzMRAwDgYDVQQDEwdBRE9DQTAxMB4XDTA5MDgzMDIzNTkyNVoXDTE5MDgz
+MDIzNTg0MlowWDELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMD
+RG9EMQwwCgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczERMA8GA1UEAxMIQURPQ0Ew
+MTIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCxXOK/ublSm1MLpCs3
+AVsloDgQnV+heFrKpKUSIbE5OliirEEbvju7fBdnvmzfhp1EKaAmJXjI/Y3meGZH
+81EEYX1Guxv2w+MaoRjiQ/PdHALZOEHl5Mci1fJJAlcj4Qww5mJoQ5Qzrf/chd3s
+VXuVKmlXOiDSp7j4eNU/pBxkycFvEf5c6aYOLxHW8q4ohNb3mt6MVW2kAwH2qSN3
+i1iGIUdhipwl/WzxUzIgepcDwqAFXDqaXqLCxR7Vpw1I2Tqy2uERoT0L2NbEwWRh
+yx2Wpx+6kdBLn8ic0c/jP1WhUF0oOL5vp+5crS7oou2snQ1TerlW8sjU2GDkih2j
+umvf4nqzs6ZfH0kQd4a9LwhyBoNkMYQ1iCBgtyGYJRYRvDyxpDNS/KvV8czANC3Q
+EBp1vseLkMfN6VrKGQetnHnDWNVIThSopbxLRklv7RJIEMX5wH7Ri7NmCOgQtjSR
+38mXPt/vGf5tjn0digVsZFokTPDO+IuaBelX8W90g01WOqogVWutwJUjUBiCM+N0
+HVPiRPzU8NTse9c5IENsK2YorGOu9WnBXIGwgmESMLX8OkvDjvfVLXyqX+4HQKWP
+JKwr3Kk2SvqJpnf2Vg3JNmVEY3VClkwhuMiXckS1qg938q+TBHRS5lyfhgB5oA+p
+uvHu9N9buusNqCtDyDOJgZGzdwIDAQABo4ICoTCCAp0wDwYDVR0TBAgwBgEB/wIB
+ADAVBgNVHSAEDjAMMAoGCCokijYBBQIBMIHJBggrBgEFBQcBAQSBvDCBuTBCBggr
+BgEFBQcwAYY2aHR0cDovL3d3dy5kZWZlbmNlLmdvdi5hdS9wa2kvY2VydGlmaWNh
+dGVzL0FET0NBMDEuY3J0MHMGCCsGAQUFBzABhmdsZGFwOi8vL0NOPUFET0NBMDEs
+Q049QUlBLENOPVB1YmxpYyBLZXkgU2VydmljZXMsQ049U2VydmljZXMsQ049Q29u
+ZmlndXJhdGlvbixEQz1EUk5TQ0hFTUEsREM9bWlsLERDPWF1MA4GA1UdDwEB/wQE
+AwIBxjAfBgNVHSMEGDAWgBTXQbYAdY3w0cq5atYB1YB6m/Bx/zCCAVUGA1UdHwSC
+AUwwggFIMDOgMaAvhi1odHRwOi8vd3d3LmRlZmVuY2UuZ292LmF1L3BraS9jcmwv
+QURPQ0EwMS5jcmwwcKBuoGyGamxkYXA6Ly9kaXIuZGVmZW5jZS5nb3YuYXUvY24l
+M2RBRE9DQTAxLG91JTNkQ0FzLG91JTNkUEtJLG91JTNkRG9ELG8lM2RHT1YsYyUz
+ZEFVP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwgZ6ggZuggZiGgZVsZGFwOi8v
+L2NuJTNkQURPQ0EwMSxjbiUzZENEUCxjbiUzZFB1YmxpYyUyMEtleSUyMFNlcnZp
+Y2VzLGNuJTNkU2VydmljZXMsY24lM2RDb25maWd1cmF0aW9uLGRjJTNkRFJOU0NI
+RU1BLGRjJTNkbWlsLGRjJTNkYXU/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDAd
+BgNVHQ4EFgQUSYzYsr+WDmaYMilRYzPouRexHqwwDQYJKoZIhvcNAQEFBQADggIB
+AJAaF9AHNcYaQdwp70mhjrCQeDFF3whxTI75pjhuZfvhGVavzmPQqDjbF2jz+43k
+DtPIrzoJmg3ZfWb6ZB5xGwrp//Nq49cX0Wnc+ki/ki2rkQi3qf0qQozW2FRbQJa5
+IUlgHj7opodpo19VQTZpLsZuaj7WXzo/6an1UZ+XAV+hbA2rWquJo4whoFFLYq/v
+xr+m8JFWoRRe6J+RcSitCLNKTgkeuam7RgZuLDGCLVFxZBKGvDh0PcHlfYZ6PlTw
+lKBNlaOEKq+UKoDDIx5Tnm8ZhBVQws74RE/LQzA9vrjQVu6IlT8TlkKd9L/xxZIP
+Jf3wPkSP1Q9uC47C3Jxln63VfREETZUYm5lqmAJzd26e75b5hkf3Zzy3SkFqCGqq
+CIypzzD7JXmCa2NbAJmdchp8ABW1Y3bxm1P8szHxTcr8GXQUubO/4lzma+P4GiP4
+gCzxe1VDtgTbgF5tT2aVfvGLZSyNFYyI8y+tn0dlUCtPG+cMphP/EFgoB80eiNWB
+7XiDnaBaERUdwZozxFv1fXk/feUcV3bVaXzylOWi8ratQU5+ib/opFP6BtkjVuFd
+KNG17VUOih4opF+zViDGiNoPe6U5ihg+NgeVHIdYItG42KVX0gM0bqmrvPKZ0VOp
+vSnjZgwDNu/KGpo1pbGDBtrYu9P4+7GrAXtHtbpl4MTu
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            39:60:01:bd:02:a6:00:01:45:fc:fd:99:15:37:a2:f9:c7:d2:a2:52
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA02
+        Validity
+            Not Before: Dec 17 23:36:16 2013 GMT
+            Not After : Dec 17 23:36:16 2018 GMT
+        Subject: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA016
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bc:94:ce:fd:b3:8c:d1:30:12:ea:15:ce:bf:a1:
+                    6c:fa:d0:5e:64:d6:ad:4c:0f:33:f7:35:82:40:78:
+                    72:52:27:bb:c4:3e:1c:24:23:3a:f5:7d:fc:d6:ee:
+                    05:96:df:9e:4d:7d:45:03:01:71:22:2d:db:a2:a1:
+                    d6:46:7a:ed:f1:cc:4d:ac:72:02:0e:cf:24:98:d2:
+                    aa:c5:a4:6c:5a:bb:dd:e6:9c:b4:ed:8e:b4:96:16:
+                    75:40:e5:c6:c7:d3:d6:c9:7a:37:e3:a0:ae:13:cb:
+                    8a:ba:8c:0c:7f:b6:d4:56:8f:bc:76:b2:3a:88:69:
+                    8e:ce:1e:2b:94:56:a2:b6:62:a4:f0:9f:dc:02:cf:
+                    aa:32:c7:2d:66:a4:f8:a6:5d:1a:ef:60:05:21:d4:
+                    dc:8e:50:ef:75:98:f4:88:69:a3:15:69:bb:93:1d:
+                    47:3b:cb:08:58:62:ef:4c:79:cc:6e:db:54:0b:6b:
+                    8a:90:2b:ca:69:0f:02:06:99:52:ce:47:76:3d:02:
+                    5f:07:d6:ee:f9:e0:6a:78:20:39:7c:13:a2:db:d3:
+                    56:a4:d7:00:6c:4b:f3:1c:b5:93:fa:1c:a2:7b:f1:
+                    e6:96:78:21:9b:85:01:18:95:ee:0c:1b:2a:c7:90:
+                    89:f6:a5:84:2d:80:bd:e4:4b:1f:7c:21:7d:e2:5f:
+                    e7:7f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:TRUE, pathlen:0
+            X509v3 Certificate Policies: 
+                Policy: 1.2.36.1.334.1.1.1.2
+                  CPS: http://www.defence.gov.au/pki
+                Policy: X509v3 Any Policy
+                Policy: 1.2.36.1.334.1.2.1.1
+                Policy: 1.2.36.1.334.1.2.1.2
+                Policy: 1.2.36.1.334.1.2.1.3
+                Policy: 1.2.36.1.334.1.2.1.4
+                Policy: 1.2.36.1.334.1.2.2.1
+                Policy: 1.2.36.1.334.1.2.2.2
+                Policy: 1.2.36.1.334.1.2.2.3
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.defence.gov.au
+                CA Issuers - URI:http://www.defence.gov.au/pki/certificates/ADOCA02
+                CA Issuers - URI:ldap://dir.defence.gov.au/cn=ADOCA02,ou=CAs,ou=PKI,ou=DoD,o=GOV,c=AU?cACertificate;binary
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:E9:E7:9D:EB:35:BD:B8:B2:2B:49:58:F4:BC:92:7D:8B:71:8A:11:5A
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.defence.gov.au/pki/crl/ADOCA02.crl
+
+                Full Name:
+                  URI:ldap://dir.defence.gov.au/cn%3dADOCA02,ou%3dCAs,ou%3dPKI,ou%3dDoD,o%3dGOV,c%3dAU?certificateRevocationList
+
+            X509v3 Subject Key Identifier: 
+                DE:81:2A:3E:9C:A3:68:51:CB:7F:CB:AF:CF:84:46:D9:01:57:89:0B
+    Signature Algorithm: sha1WithRSAEncryption
+         06:d8:a2:e2:8f:2c:26:59:7c:42:3c:67:09:41:fe:a5:a4:05:
+         62:79:59:57:79:f2:41:50:55:7c:8a:02:c8:e2:42:e0:2a:4e:
+         fc:0b:2a:b7:8b:fc:22:50:09:c4:21:11:94:75:85:37:ef:ae:
+         fc:95:24:9e:b6:1a:4e:d4:a2:69:09:8b:6d:3f:6e:99:7e:36:
+         92:0a:f3:8b:0f:51:eb:51:52:e4:da:aa:89:de:b6:45:b2:1c:
+         57:99:3a:11:4d:8b:da:b3:23:5f:60:c5:29:7c:e1:25:cd:93:
+         ae:a4:f2:3d:75:dd:fd:d4:1c:ae:b7:69:57:93:17:66:4a:02:
+         21:90:56:4e:a0:89:47:28:e2:f1:63:57:c7:1f:a8:a9:b7:2e:
+         1a:32:b2:c3:ec:ed:4b:43:92:10:3e:c8:c5:fc:dc:f2:93:60:
+         a0:20:ba:fc:fe:58:22:ba:fe:6b:54:ec:c9:c3:7d:3b:50:e1:
+         e0:52:ac:70:8e:19:37:9d:b9:bf:d3:24:8f:35:d0:ca:7b:fe:
+         58:b2:5b:03:38:c5:fe:49:de:12:15:02:05:ea:1c:78:c4:13:
+         6d:d3:7e:b7:46:fa:b1:00:20:10:3a:3a:d4:aa:c3:51:7e:d3:
+         46:07:26:4e:41:86:5b:1b:f4:a4:b8:27:5c:82:01:3f:4e:7c:
+         d4:11:19:00
+-----BEGIN CERTIFICATE-----
+MIIF5jCCBM6gAwIBAgIUOWABvQKmAAFF/P2ZFTei+cfSolIwDQYJKoZIhvcNAQEF
+BQAwVzELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEQMA4GA1UEAxMHQURPQ0EwMjAeFw0x
+MzEyMTcyMzM2MTZaFw0xODEyMTcyMzM2MTZaMFgxCzAJBgNVBAYTAkFVMQwwCgYD
+VQQKEwNHT1YxDDAKBgNVBAsTA0RvRDEMMAoGA1UECxMDUEtJMQwwCgYDVQQLEwND
+QXMxETAPBgNVBAMTCEFET0NBMDE2MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAvJTO/bOM0TAS6hXOv6Fs+tBeZNatTA8z9zWCQHhyUie7xD4cJCM69X38
+1u4Flt+eTX1FAwFxIi3boqHWRnrt8cxNrHICDs8kmNKqxaRsWrvd5py07Y60lhZ1
+QOXGx9PWyXo346CuE8uKuowMf7bUVo+8drI6iGmOzh4rlFaitmKk8J/cAs+qMsct
+ZqT4pl0a72AFIdTcjlDvdZj0iGmjFWm7kx1HO8sIWGLvTHnMbttUC2uKkCvKaQ8C
+BplSzkd2PQJfB9bu+eBqeCA5fBOi29NWpNcAbEvzHLWT+hyie/Hmlnghm4UBGJXu
+DBsqx5CJ9qWELYC95EsffCF94l/nfwIDAQABo4ICpzCCAqMwDwYDVR0TBAgwBgEB
+/wIBADCBqAYDVR0gBIGgMIGdMDgGCSokAYJOAQEBAjArMCkGCCsGAQUFBwIBFh1o
+dHRwOi8vd3d3LmRlZmVuY2UuZ292LmF1L3BraTAGBgRVHSAAMAsGCSokAYJOAQIB
+ATALBgkqJAGCTgECAQIwCwYJKiQBgk4BAgEDMAsGCSokAYJOAQIBBDALBgkqJAGC
+TgECAgEwCwYJKiQBgk4BAgICMAsGCSokAYJOAQICAzCB3wYIKwYBBQUHAQEEgdIw
+gc8wJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwLmRlZmVuY2UuZ292LmF1MD4GCCsG
+AQUFBzAChjJodHRwOi8vd3d3LmRlZmVuY2UuZ292LmF1L3BraS9jZXJ0aWZpY2F0
+ZXMvQURPQ0EwMjBlBggrBgEFBQcwAoZZbGRhcDovL2Rpci5kZWZlbmNlLmdvdi5h
+dS9jbj1BRE9DQTAyLG91PUNBcyxvdT1QS0ksb3U9RG9ELG89R09WLGM9QVU/Y0FD
+ZXJ0aWZpY2F0ZTtiaW5hcnkwDgYDVR0PAQH/BAQDAgHGMB8GA1UdIwQYMBaAFOnn
+nes1vbiyK0lY9LySfYtxihFaMIGyBgNVHR8EgaowgacwM6AxoC+GLWh0dHA6Ly93
+d3cuZGVmZW5jZS5nb3YuYXUvcGtpL2NybC9BRE9DQTAyLmNybDBwoG6gbIZqbGRh
+cDovL2Rpci5kZWZlbmNlLmdvdi5hdS9jbiUzZEFET0NBMDIsb3UlM2RDQXMsb3Ul
+M2RQS0ksb3UlM2REb0QsbyUzZEdPVixjJTNkQVU/Y2VydGlmaWNhdGVSZXZvY2F0
+aW9uTGlzdDAdBgNVHQ4EFgQU3oEqPpyjaFHLf8uvz4RG2QFXiQswDQYJKoZIhvcN
+AQEFBQADggEBAAbYouKPLCZZfEI8ZwlB/qWkBWJ5WVd58kFQVXyKAsjiQuAqTvwL
+KreL/CJQCcQhEZR1hTfvrvyVJJ62Gk7UomkJi20/bpl+NpIK84sPUetRUuTaqone
+tkWyHFeZOhFNi9qzI19gxSl84SXNk66k8j113f3UHK63aVeTF2ZKAiGQVk6giUco
+4vFjV8cfqKm3LhoyssPs7UtDkhA+yMX83PKTYKAguvz+WCK6/mtU7MnDfTtQ4eBS
+rHCOGTedub/TJI810Mp7/liyWwM4xf5J3hIVAgXqHHjEE23TfrdG+rEAIBA6OtSq
+w1F+00YHJk5Bhlsb9KS4J1yCAT9OfNQRGQA=
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0e:f9:87:84:ef:7b:21:b9:72:57:2e:27:8f:fa:85:77:19:5a:00:c1
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA05
+        Validity
+            Not Before: May 12 04:34:43 2014 GMT
+            Not After : May 12 04:34:43 2019 GMT
+        Subject: C = AU, O = GOV, OU = DoD, OU = PKI, OU = CAs, CN = ADOCA018
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:92:3a:ec:07:05:e5:2f:c0:e9:ce:b1:25:84:37:
+                    81:d1:84:ec:94:1c:42:8a:3e:87:ba:6a:ce:55:94:
+                    d5:35:ee:4b:bd:c5:73:6a:e5:80:87:65:35:72:7b:
+                    0b:f7:e5:ac:01:05:81:0e:a1:29:a7:5f:3b:08:c9:
+                    1a:d3:44:4f:75:7a:ec:3d:22:7e:75:5d:2a:c1:47:
+                    cd:ee:88:6d:05:7e:41:09:1d:db:82:bc:42:ae:df:
+                    b6:16:ad:06:2b:2f:65:1e:71:61:ec:12:87:ed:ee:
+                    41:aa:fe:ad:da:93:7a:b8:9a:72:a4:2f:36:9d:aa:
+                    be:3c:5a:9e:64:ef:03:da:cf:10:c3:9d:79:6e:1d:
+                    3d:92:97:fb:54:cf:db:90:83:91:49:ed:c9:19:b1:
+                    68:e8:60:82:69:ee:96:62:ed:12:8d:f4:67:52:18:
+                    85:23:78:e5:b7:71:e1:92:9b:3b:f3:2b:f2:d8:96:
+                    3b:da:3b:52:59:9b:01:14:28:ee:80:51:50:34:3e:
+                    ed:6f:8b:a2:b0:b0:36:02:10:8d:0c:4c:82:c9:2e:
+                    00:30:c1:4a:2b:e4:c9:8f:91:48:98:01:8b:1a:1f:
+                    43:83:30:fc:71:7c:3c:58:a9:0b:83:80:83:f7:78:
+                    83:aa:65:7d:b7:79:37:fd:50:ce:02:91:0a:61:52:
+                    6c:b3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:TRUE, pathlen:0
+            X509v3 Certificate Policies: 
+                Policy: 1.2.36.1.334.1.1.1.2
+                  CPS: http://www.defence.gov.au/pki
+                Policy: X509v3 Any Policy
+                Policy: 1.2.36.1.334.1.2.1.1
+                Policy: 1.2.36.1.334.1.2.1.2
+                Policy: 1.2.36.1.334.1.2.1.3
+                Policy: 1.2.36.1.334.1.2.1.4
+                Policy: 1.2.36.1.334.1.2.2.1
+                Policy: 1.2.36.1.334.1.2.2.2
+                Policy: 1.2.36.1.334.1.2.2.3
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.defence.gov.au
+                CA Issuers - URI:http://www.defence.gov.au/pki/certificates/ADOCA05
+                CA Issuers - URI:ldap://dir.defence.gov.au/cn=ADOCA05,ou=CAs,ou=PKI,ou=DoD,o=GOV,c=AU?cACertificate;binary
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:1F:C9:DF:7D:4D:23:A4:9E:F5:5A:BF:27:C0:79:0C:16:D5:F6:99:67
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.defence.gov.au/pki/crl/ADOCA05.crl
+
+                Full Name:
+                  URI:ldap://dir.defence.gov.au/cn%3dADOCA05,ou%3dCAs,ou%3dPKI,ou%3dDoD,o%3dGOV,c%3dAU?certificateRevocationList
+
+            X509v3 Subject Key Identifier: 
+                37:53:75:10:CA:CE:AD:D0:48:65:26:0C:FC:49:8F:85:9A:E3:4E:AF
+    Signature Algorithm: sha256WithRSAEncryption
+         1b:75:43:5b:d7:26:8e:4f:0d:0b:66:62:ac:8a:d6:d1:8b:c9:
+         1d:41:78:a6:6e:bd:2d:0e:7a:2b:d2:cd:f0:ca:95:16:b8:6d:
+         62:42:54:5e:30:46:f9:cc:2d:07:9c:c9:63:03:b4:40:68:50:
+         a2:33:3f:e2:28:66:df:a0:1e:99:f1:5e:4f:51:e6:97:d8:05:
+         4c:19:b7:ec:59:46:ca:1a:15:4d:a6:f1:0f:4f:44:39:fd:d5:
+         65:4b:40:8f:52:70:b8:c5:f0:e9:45:05:98:61:35:73:0d:e0:
+         7a:21:d8:dc:a0:1a:35:60:b1:20:a1:d1:66:f1:27:b9:d2:c5:
+         6c:83:42:56:a6:5e:a6:ed:1a:53:96:24:96:0e:86:b4:b6:00:
+         15:4c:26:f2:23:e8:55:e8:4b:65:0e:c9:05:33:de:be:46:b8:
+         0e:6e:2d:99:d9:ce:32:5f:ac:22:47:10:c6:02:e1:bb:35:c4:
+         b7:10:9a:25:0d:69:74:54:29:46:1b:79:80:4a:d8:ae:44:d8:
+         2c:14:66:15:37:0e:17:93:59:d6:75:f1:2e:fb:7f:a3:2d:8d:
+         1a:df:05:8a:6c:0d:a3:06:55:9c:08:2a:df:be:5d:2a:0e:5f:
+         e6:13:8e:42:49:98:73:36:06:dd:af:08:09:f7:cd:10:f3:4b:
+         0d:33:f3:b1
+-----BEGIN CERTIFICATE-----
+MIIF5jCCBM6gAwIBAgIUDvmHhO97IblyVy4nj/qFdxlaAMEwDQYJKoZIhvcNAQEL
+BQAwVzELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEQMA4GA1UEAxMHQURPQ0EwNTAeFw0x
+NDA1MTIwNDM0NDNaFw0xOTA1MTIwNDM0NDNaMFgxCzAJBgNVBAYTAkFVMQwwCgYD
+VQQKEwNHT1YxDDAKBgNVBAsTA0RvRDEMMAoGA1UECxMDUEtJMQwwCgYDVQQLEwND
+QXMxETAPBgNVBAMTCEFET0NBMDE4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAkjrsBwXlL8DpzrElhDeB0YTslBxCij6HumrOVZTVNe5LvcVzauWAh2U1
+cnsL9+WsAQWBDqEpp187CMka00RPdXrsPSJ+dV0qwUfN7ohtBX5BCR3bgrxCrt+2
+Fq0GKy9lHnFh7BKH7e5Bqv6t2pN6uJpypC82naq+PFqeZO8D2s8Qw515bh09kpf7
+VM/bkIORSe3JGbFo6GCCae6WYu0SjfRnUhiFI3jlt3Hhkps78yvy2JY72jtSWZsB
+FCjugFFQND7tb4uisLA2AhCNDEyCyS4AMMFKK+TJj5FImAGLGh9DgzD8cXw8WKkL
+g4CD93iDqmV9t3k3/VDOApEKYVJsswIDAQABo4ICpzCCAqMwDwYDVR0TBAgwBgEB
+/wIBADCBqAYDVR0gBIGgMIGdMDgGCSokAYJOAQEBAjArMCkGCCsGAQUFBwIBFh1o
+dHRwOi8vd3d3LmRlZmVuY2UuZ292LmF1L3BraTAGBgRVHSAAMAsGCSokAYJOAQIB
+ATALBgkqJAGCTgECAQIwCwYJKiQBgk4BAgEDMAsGCSokAYJOAQIBBDALBgkqJAGC
+TgECAgEwCwYJKiQBgk4BAgICMAsGCSokAYJOAQICAzCB3wYIKwYBBQUHAQEEgdIw
+gc8wJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwLmRlZmVuY2UuZ292LmF1MD4GCCsG
+AQUFBzAChjJodHRwOi8vd3d3LmRlZmVuY2UuZ292LmF1L3BraS9jZXJ0aWZpY2F0
+ZXMvQURPQ0EwNTBlBggrBgEFBQcwAoZZbGRhcDovL2Rpci5kZWZlbmNlLmdvdi5h
+dS9jbj1BRE9DQTA1LG91PUNBcyxvdT1QS0ksb3U9RG9ELG89R09WLGM9QVU/Y0FD
+ZXJ0aWZpY2F0ZTtiaW5hcnkwDgYDVR0PAQH/BAQDAgHGMB8GA1UdIwQYMBaAFB/J
+331NI6Se9Vq/J8B5DBbV9plnMIGyBgNVHR8EgaowgacwM6AxoC+GLWh0dHA6Ly93
+d3cuZGVmZW5jZS5nb3YuYXUvcGtpL2NybC9BRE9DQTA1LmNybDBwoG6gbIZqbGRh
+cDovL2Rpci5kZWZlbmNlLmdvdi5hdS9jbiUzZEFET0NBMDUsb3UlM2RDQXMsb3Ul
+M2RQS0ksb3UlM2REb0QsbyUzZEdPVixjJTNkQVU/Y2VydGlmaWNhdGVSZXZvY2F0
+aW9uTGlzdDAdBgNVHQ4EFgQUN1N1EMrOrdBIZSYM/EmPhZrjTq8wDQYJKoZIhvcN
+AQELBQADggEBABt1Q1vXJo5PDQtmYqyK1tGLyR1BeKZuvS0OeivSzfDKlRa4bWJC
+VF4wRvnMLQecyWMDtEBoUKIzP+IoZt+gHpnxXk9R5pfYBUwZt+xZRsoaFU2m8Q9P
+RDn91WVLQI9ScLjF8OlFBZhhNXMN4Hoh2NygGjVgsSCh0WbxJ7nSxWyDQlamXqbt
+GlOWJJYOhrS2ABVMJvIj6FXoS2UOyQUz3r5GuA5uLZnZzjJfrCJHEMYC4bs1xLcQ
+miUNaXRUKUYbeYBK2K5E2CwUZhU3DheTWdZ18S77f6MtjRrfBYpsDaMGVZwIKt++
+XSoOX+YTjkJJmHM2Bt2vCAn3zRDzSw0z87E=
+-----END CERTIFICATE-----
+subject=/C=US/O=U.S. Government/OU=DoD/OU=PKI/CN=US DoD CCEB Interoperability Root CA 2
+issuer=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Interoperability CA
+-----BEGIN CERTIFICATE-----
+MIIGJDCCBQygAwIBAgIUIXs5QvxQCY6zcK+u+208P/1E968wDQYJKoZIhvcNAQEL
+BQAwdjELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEvMC0GA1UEAxMmQXVzdHJhbGlhbiBE
+ZWZlbmNlIEludGVyb3BlcmFiaWxpdHkgQ0EwHhcNMTcwOTA0MjI0NzM3WhcNMTgw
+OTA0MjI0NzM3WjB0MQswCQYDVQQGEwJVUzEYMBYGA1UEChMPVS5TLiBHb3Zlcm5t
+ZW50MQwwCgYDVQQLEwNEb0QxDDAKBgNVBAsTA1BLSTEvMC0GA1UEAxMmVVMgRG9E
+IENDRUIgSW50ZXJvcGVyYWJpbGl0eSBSb290IENBIDIwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDEBAkcethMFW/YO2VBtoh6N/PUwHgSXg79AcQJhhPT
+mdMD4rteA4xVXc76CXKU4vEJmrvB7gxBKNkLj92NDYuoOBeiZiL4DzeyqBFn34IL
+FUUaYFh+r+tav/UBB2lqBza2QO4/GSyX+ejQq1e/F420qlpEiOiS3p+1wdoS5DqQ
+zXEw7oyxEViSEMd3j94YBpg6oPwWz0MWe7mrqUBlhmcONra6kpDCIEGpm4i6TBvn
+opxCXTGnYU4W1vtyD/t1qkHc1rfrcQxD7a92voLGTs2cBTSOr3+M+Xc21rR/vrwM
+YQbFNC9ZFtKlzAmjQhYjT+OiaQAA7QlyuzQ1c92z1NGbAgMBAAGjggKqMIICpjAS
+BgNVHRMBAf8ECDAGAQH/AgECMBIGA1UdJAEB/wQIMAaAAQCBAQAwNgYIKwYBBQUH
+AQEEKjAoMCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5kZWZlbmNlLmdvdi5hdTBq
+BgNVHSAEYzBhMDgGCSokAYJOAQEBAzArMCkGCCsGAQUFBwIBFh1odHRwOi8vY3Js
+LmRlZmVuY2UuZ292LmF1L3BraTALBgkqJAGCTgECAgIwCwYJKiQBgk4BAgECMAsG
+CSokAYJOAQIBAzANBgNVHTYBAf8EAwIBADBRBgNVHSEESjBIMBYGCSokAYJOAQIC
+AgYJYIZIAWUCAQskMBYGCSokAYJOAQIBAgYJYIZIAWUCAQsnMBYGCSokAYJOAQIB
+AwYJYIZIAWUCAQsqMEkGA1UdHgEB/wQ/MD2gOzA5pDcwNTELMAkGA1UEBhMCVVMx
+GDAWBgNVBAoTD1UuUy4gR292ZXJubWVudDEMMAoGA1UECxMDRG9EMA4GA1UdDwEB
+/wQEAwIBBjAfBgNVHSMEGDAWgBRmW55b22ZqJ1nN2X2/ivadzovMyzCB2gYDVR0f
+BIHSMIHPMDKgMKAuhixodHRwOi8vY3JsLmRlZmVuY2UuZ292LmF1L3BraS9jcmwv
+QURJT0NBLmNybDCBmKCBlaCBkoaBj2xkYXA6Ly9kaXIuZGVmZW5jZS5nb3YuYXUv
+Y24lM2RBdXN0cmFsaWFuJTIwRGVmZW5jZSUyMEludGVyb3BlcmFiaWxpdHklMjBD
+QSxvdSUzZENBcyxvdSUzZFBLSSxvdSUzZERvRCxvJTNkR09WLGMlM2RBVT9jZXJ0
+aWZpY2F0ZVJldm9jYXRpb25MaXN0MB0GA1UdDgQWBBQWK5Ha4hcMlqtcfd59SPJd
+qACs5zANBgkqhkiG9w0BAQsFAAOCAQEAl3egvBc5oaFEVt/0KynGo1SHcbthaB0k
+XIVMBq/b21PkJmgiaqKTuf6nzzM8RVEEIi/KCOaAKOu5dZYG6r9LFmew21AdZXeY
+GhdchREgUJK3T3Lmyv5zahtVUoZE0fgmw/dWnZ23CYE+uyNuX64l4rM186OKeIDA
+am9nQXp5pkOGi8C7BbVmSsSwZNtiuCxVMgg0mki2FlmyWY7tyM8dpfwdg6y+2xrq
+bk+QpeGfQFDEjsb32M3uACD96VyRjSIo88T9JG7xNFcnnFFp46wDWqz4SMtgW40f
+Ge+67JoitcuQhal8P9Fr+hD0jiZvLhzTDZnGdIXN3M6UuV65HBcbdA==
+-----END CERTIFICATE-----
+
+subject=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Interoperability CA
+issuer=/C=US/O=U.S. Government/OU=DoD/OU=PKI/CN=US DoD CCEB Interoperability Root CA 2
+-----BEGIN CERTIFICATE-----
+MIIFVDCCBDygAwIBAgICAPkwDQYJKoZIhvcNAQELBQAwdDELMAkGA1UEBhMCVVMx
+GDAWBgNVBAoTD1UuUy4gR292ZXJubWVudDEMMAoGA1UECxMDRG9EMQwwCgYDVQQL
+EwNQS0kxLzAtBgNVBAMTJlVTIERvRCBDQ0VCIEludGVyb3BlcmFiaWxpdHkgUm9v
+dCBDQSAyMB4XDTE3MDgxNTE0MjgzOFoXDTE4MDgxNDE0MjgzOFowdjELMAkGA1UE
+BhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQwwCgYDVQQLEwNQS0kx
+DDAKBgNVBAsTA0NBczEvMC0GA1UEAxMmQXVzdHJhbGlhbiBEZWZlbmNlIEludGVy
+b3BlcmFiaWxpdHkgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZ
+yEfUTJpj8t8Kh7tdHXaPQt8dnxEGB+aNKVHc+2pRPgTaeSDSkSFBHjsNQVMYDoqK
+gojQkTW/JJpIjZxi6+MDZbdegeENRX9IzS1CYojFLlfKxXCwSkPhwvmgUtQgJkqS
+4L2c7gUeZ9bZzi4r4SYqnkE1PFT2KjqQ5EKrD6Bq4Yf73jZBk3ZPqEj9Gleb5aMo
+h617vNCoPZV+/F0fYVzkm/f7lrCwV0WuQURy4QlUxB65OOZ/LmR+xomD7HSEiVN7
+6cAQ6Y2lrsY7UaUmNMkm/ttmhkuoalU9unHVO6KEuDIwWfej6xaD6OJfhBcLOvoh
+3dymV7ESkuguDhL1Fwr5AgMBAAGjggHsMIIB6DAfBgNVHSMEGDAWgBQWK5Ha4hcM
+lqtcfd59SPJdqACs5zAdBgNVHQ4EFgQUZlueW9tmaidZzdl9v4r2nc6LzMswDgYD
+VR0PAQH/BAQDAgEGMDAGA1UdIAQpMCcwCwYJYIZIAWUCAQskMAsGCWCGSAFlAgEL
+JzALBglghkgBZQIBCyowUQYDVR0hBEowSDAWBglghkgBZQIBCyQGCSokAYJOAQIC
+AjAWBglghkgBZQIBCycGCSokAYJOAQIBAjAWBglghkgBZQIBCyoGCSokAYJOAQIB
+AzASBgNVHRMBAf8ECDAGAQH/AgEBMFwGA1UdHgEB/wRSMFCgTjAtpCswKTELMAkG
+A1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMAiCBmdvdi5hdTAI
+gQZnb3YuYXUwCYEHLmdvdi5hdTASBgNVHSQBAf8ECDAGgAEAgQEAME0GA1UdHwRG
+MEQwQqBAoD6GPGh0dHA6Ly9jcmwuZGlzYS5taWwvY3JsL1VTRE9EQ0NFQklOVEVS
+T1BFUkFCSUxJVFlST09UQ0EyLmNybDAwBggrBgEFBQcBAQQkMCIwIAYIKwYBBQUH
+MAGGFGh0dHA6Ly9vY3NwLmRpc2EubWlsMAoGA1UdNgQDAgEAMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJUt+jqli3JoOEV40BfPqmLu6II4QEugWQ8q0s/R8YDS3t4/hr2P23
+memRBJOwUyq0rs0e35rmUINFhqrgwXYx5tqeKriOD2LII8+dPLCisSS2op/fXDbS
+7ChZL+OY4A4H4qIx3ggkozhAj8/FS3tj+zYz8vWzK96brWbSMeza2ipKBX5MqSKC
+k/uWUh35WSE/DlVfoB//ds9YIu23ZfE73tC7pqypmEv33vbnzEiANd00Y7RhTeVl
+qsOi60BrTAM6cWC7bxz8If+DiuRV+11dlxWnWPO6sLzaFq2vF55i2F29Ug8YuL5Z
+qpfw7EZJIo9ZCaNTmPZHPxUIkUUewTSR
+-----END CERTIFICATE-----
+
+subject=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Device CA
+issuer=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Interoperability CA
+-----BEGIN CERTIFICATE-----
+MIIGhzCCBW+gAwIBAgIUMzuURvzkQnT2yIZjq/6LrjrNn7YwDQYJKoZIhvcNAQEL
+BQAwdjELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEvMC0GA1UEAxMmQXVzdHJhbGlhbiBE
+ZWZlbmNlIEludGVyb3BlcmFiaWxpdHkgQ0EwHhcNMTcwOTA0MjMxNTM1WhcNMjAw
+OTA0MjMxNTM1WjBzMQswCQYDVQQGEwJBVTEMMAoGA1UEChMDR09WMQwwCgYDVQQL
+EwNEb0QxDDAKBgNVBAsTA1BLSTEMMAoGA1UECxMDQ0FzMSwwKgYDVQQDEyNBdXN0
+cmFsaWFuIERlZmVuY2UgUHVibGljIERldmljZSBDQTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAOe6YAGodK1282LGbGLBBbP0ZBGMk64WHu/l4BAY/k78
+SYro3Y/BrH57ndo+bYvHQC7h40qPXjY60PyYsk2jCeOA3dRt1Ac7zfgWWEJkICoW
+FFmzWK7tq/yZUp33XwEdYvAzq3w6Z5WCsMdhnYtm/C5TLcYBw/0oNW2ZCuRieTDh
+nT2cwx504IGi9sye4K7r7HehFJToocKyjhWrQp5DgyjhieO103kKT8MdNliSq0pZ
+3jBiC00ksdhKv/HMkrsga91yOgmoPcg4q+aNkeVcWJlHW9iiXXBUOfYp5+HUop/b
+SisPakewR3Y1sk5VGRp8oo4FwdShrlLjNk5SpWsf/p8CAwEAAaOCAw4wggMKMA8G
+A1UdEwEB/wQFMAMBAf8wggEdBggrBgEFBQcBAQSCAQ8wggELMCYGCCsGAQUFBzAB
+hhpodHRwOi8vb2NzcC5kZWZlbmNlLmdvdi5hdTA9BggrBgEFBQcwAoYxaHR0cDov
+L2NybC5kZWZlbmNlLmdvdi5hdS9wa2kvY2VydGlmaWNhdGVzL0FESU9DQTCBoQYI
+KwYBBQUHMAKGgZRsZGFwOi8vZGlyLmRlZmVuY2UuZ292LmF1L2NuPUF1c3RyYWxp
+YW4gRGVmZW5jZSBJbnRlcm9wZXJhYmlsaXR5IENBLG91PUNBcyxvdT1QS0ksb3U9
+RG9ELG89R09WLGM9QVU/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnksY3Jvc3NDZXJ0aWZp
+Y2F0ZVBhaXI7YmluYXJ5MIGoBgNVHSAEgaAwgZ0wOAYJKiQBgk4BAQEDMCswKQYI
+KwYBBQUHAgEWHWh0dHA6Ly9jcmwuZGVmZW5jZS5nb3YuYXUvcGtpMAsGCSokAYJO
+AQIBATALBgkqJAGCTgECAQIwCwYJKiQBgk4BAgEDMAsGCSokAYJOAQIBBDALBgkq
+JAGCTgECAgEwCwYJKiQBgk4BAgICMAsGCSokAYJOAQICAzAGBgRVHSAAMA4GA1Ud
+DwEB/wQEAwIBxjAfBgNVHSMEGDAWgBRmW55b22ZqJ1nN2X2/ivadzovMyzCB2gYD
+VR0fBIHSMIHPMDKgMKAuhixodHRwOi8vY3JsLmRlZmVuY2UuZ292LmF1L3BraS9j
+cmwvQURJT0NBLmNybDCBmKCBlaCBkoaBj2xkYXA6Ly9kaXIuZGVmZW5jZS5nb3Yu
+YXUvY24lM2RBdXN0cmFsaWFuJTIwRGVmZW5jZSUyMEludGVyb3BlcmFiaWxpdHkl
+MjBDQSxvdSUzZENBcyxvdSUzZFBLSSxvdSUzZERvRCxvJTNkR09WLGMlM2RBVT9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0MB0GA1UdDgQWBBTLPlqrAgTuNpqP5Wef
+pb3lKfFuADANBgkqhkiG9w0BAQsFAAOCAQEAkWcevATd9akg3mIgFcu4xzrcnmci
+txHygJe6OQDtEeXokN3+e2hLhC01cLXlLzTj/Ve7IBIKeTGoVprVsFmnpAYaR++O
+uT4XoJUbFnNu9c53nTXXj09950mPX1QDhUel3vUBc3NvTMr00Xe8GfEtjA9s/YqP
+y6r6IKmPxAWzpBb7g/CXoXQnEz9mtM8hPvsUucAqADFu15KU0uAo9d7GtccmSBYC
+bxRhpwAo6MZrgYXlac5YSid8y0EEF3G/Hn/m0Ezcq1itlKyr19MqBZhNn8K4WBXl
+p2SP7jjohT+8SCPoshnd2DGH/l+EmfNuCdtfvDRZ3O8+e1tG6+HVEQK46A==
+-----END CERTIFICATE-----
+
+subject=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Device CA
+issuer=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Root CA
+-----BEGIN CERTIFICATE-----
+MIIGXDCCBUSgAwIBAgIUaoK7DJoKTReHCJlYCa9j0p5r450wDQYJKoZIhvcNAQEL
+BQAwcTELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEqMCgGA1UEAxMhQXVzdHJhbGlhbiBE
+ZWZlbmNlIFB1YmxpYyBSb290IENBMB4XDTE2MTEyODIzMzI0NloXDTI2MTEyODIz
+MzI0NlowczELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9E
+MQwwCgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEsMCoGA1UEAxMjQXVzdHJhbGlh
+biBEZWZlbmNlIFB1YmxpYyBEZXZpY2UgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDnumABqHStdvNixmxiwQWz9GQRjJOuFh7v5eAQGP5O/EmK6N2P
+wax+e53aPm2Lx0Au4eNKj142OtD8mLJNownjgN3UbdQHO834FlhCZCAqFhRZs1iu
+7av8mVKd918BHWLwM6t8OmeVgrDHYZ2LZvwuUy3GAcP9KDVtmQrkYnkw4Z09nMMe
+dOCBovbMnuCu6+x3oRSU6KHCso4Vq0KeQ4Mo4YnjtdN5Ck/DHTZYkqtKWd4wYgtN
+JLHYSr/xzJK7IGvdcjoJqD3IOKvmjZHlXFiZR1vYol1wVDn2Kefh1KKf20orD2pH
+sEd2NbJOVRkafKKOBcHUoa5S4zZOUqVrH/6fAgMBAAGjggLoMIIC5DASBgNVHRMB
+Af8ECDAGAQH/AgEAMIGoBgNVHSAEgaAwgZ0wOAYJKiQBgk4BAQEIMCswKQYIKwYB
+BQUHAgEWHWh0dHA6Ly9jcmwuZGVmZW5jZS5nb3YuYXUvcGtpMAYGBFUdIAAwCwYJ
+KiQBgk4BAgEBMAsGCSokAYJOAQIBAjALBgkqJAGCTgECAQMwCwYJKiQBgk4BAgEE
+MAsGCSokAYJOAQICATALBgkqJAGCTgECAgIwCwYJKiQBgk4BAgIDMIH4BggrBgEF
+BQcBAQSB6zCB6DAmBggrBgEFBQcwAYYaaHR0cDovL29jc3AuZGVmZW5jZS5nb3Yu
+YXUwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwuZGVmZW5jZS5nb3YuYXUvcGtpL2Nl
+cnRpZmljYXRlcy9BRFBSQ0EwfwYIKwYBBQUHMAKGc2xkYXA6Ly9kaXIuZGVmZW5j
+ZS5nb3YuYXUvY249QXVzdHJhbGlhbiBEZWZlbmNlIFB1YmxpYyBSb290IENBLG91
+PUNBcyxvdT1QS0ksb3U9RG9ELG89R09WLGM9QVU/Y0FDZXJ0aWZpY2F0ZTtiaW5h
+cnkwDgYDVR0PAQH/BAQDAgHGMB8GA1UdIwQYMBaAFKyZ4QIv6FxLQbc0uB7pm4M2
+DZS0MIHXBgNVHR8Egc8wgcwwMqAwoC6GLGh0dHA6Ly9jcmwuZGVmZW5jZS5nb3Yu
+YXUvcGtpL2NybC9BRFBSQ0EuY3JsMIGVoIGSoIGPhoGMbGRhcDovL2Rpci5kZWZl
+bmNlLmdvdi5hdS9jbiUzZEF1c3RyYWxpYW4lMjBEZWZlbmNlJTIwUHVibGljJTIw
+Um9vdCUyMENBLG91JTNkQ0FzLG91JTNkUEtJLG91JTNkRG9ELG8lM2RHT1YsYyUz
+ZEFVP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwHQYDVR0OBBYEFMs+WqsCBO42
+mo/lZ5+lveUp8W4AMA0GCSqGSIb3DQEBCwUAA4IBAQDI2GQfLkPVaHzbju3y2d8L
+goSVFQneetVRSGs+Mr/EFIsUnGUm8cVNedesilQBdFn5qX4r4tYG0wQNp9M/axLl
+VcG6P++4O9Wa74pnakpAe9gC6L1bZG9jh4eNI9ZlpEBaPjSZOHHvZnczbESAycot
+vRdpADlbBpjJaY2FHkvsPqcDU7wL68oCCHQ4hI1iZp3BPKJ///tQS6ElIwkqHiKk
+gFeIcVgWc52g133mQDriXncYjIzkAuIedZubkosNpKDB1ln9ArGaJFxTp7aYbOMd
+a2LqglUkknP0I2FdSIZwgbL1/as231KRMX1qWFfYJWmaReICi+CB6BoxNvNix8R3
+-----END CERTIFICATE-----
+
+subject=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Identity CA
+issuer=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Root CA
+-----BEGIN CERTIFICATE-----
+MIIGXjCCBUagAwIBAgIURl5I+NXi7DmPljbvBSgwKCZuHr8wDQYJKoZIhvcNAQEL
+BQAwcTELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEqMCgGA1UEAxMhQXVzdHJhbGlhbiBE
+ZWZlbmNlIFB1YmxpYyBSb290IENBMB4XDTE2MTEyODIzMTAzMVoXDTI2MTEyODIz
+MTAzMVowdTELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9E
+MQwwCgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEuMCwGA1UEAxMlQXVzdHJhbGlh
+biBEZWZlbmNlIFB1YmxpYyBJZGVudGl0eSBDQTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBANNRQrllW+B6ho8ioFAhp9BgxtIdPwoBXLT9qUtlgFDdcYwg
+m9gGGmqTRNp8fDoDIhsXjDP0c+bD2RsRULflfzrI4S5Rydiri+1ZAD+M1JJr7+ra
+MffU9InXfZoaedtkxHjjBV4fPWxCXfWNPojaYFZOKIfJcE+OwQYKp3JMJoHG4jOu
+sJ0v12H//3PmNs4rnzYAeU3+KiZIHUk7w+roB8Uypc9QBUN8eesf7xQ7vZxQGRuJ
+CyKQt9PjfYN9+zoLEsYxdmJF+lsgW1n8t2FYEl+/D+4vzgZQyArWBiMp33wOgb0u
+Ysk/5QBoh7I8UGx0xoWIrNHuAE7+PE2DjfJHr2cCAwEAAaOCAugwggLkMBIGA1Ud
+EwEB/wQIMAYBAf8CAQAwgagGA1UdIASBoDCBnTA4BgkqJAGCTgEBAQgwKzApBggr
+BgEFBQcCARYdaHR0cDovL2NybC5kZWZlbmNlLmdvdi5hdS9wa2kwBgYEVR0gADAL
+BgkqJAGCTgECAQEwCwYJKiQBgk4BAgECMAsGCSokAYJOAQIBAzALBgkqJAGCTgEC
+AQQwCwYJKiQBgk4BAgIBMAsGCSokAYJOAQICAjALBgkqJAGCTgECAgMwgfgGCCsG
+AQUFBwEBBIHrMIHoMCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5kZWZlbmNlLmdv
+di5hdTA9BggrBgEFBQcwAoYxaHR0cDovL2NybC5kZWZlbmNlLmdvdi5hdS9wa2kv
+Y2VydGlmaWNhdGVzL0FEUFJDQTB/BggrBgEFBQcwAoZzbGRhcDovL2Rpci5kZWZl
+bmNlLmdvdi5hdS9jbj1BdXN0cmFsaWFuIERlZmVuY2UgUHVibGljIFJvb3QgQ0Es
+b3U9Q0FzLG91PVBLSSxvdT1Eb0Qsbz1HT1YsYz1BVT9jQUNlcnRpZmljYXRlO2Jp
+bmFyeTAOBgNVHQ8BAf8EBAMCAcYwHwYDVR0jBBgwFoAUrJnhAi/oXEtBtzS4Humb
+gzYNlLQwgdcGA1UdHwSBzzCBzDAyoDCgLoYsaHR0cDovL2NybC5kZWZlbmNlLmdv
+di5hdS9wa2kvY3JsL0FEUFJDQS5jcmwwgZWggZKggY+GgYxsZGFwOi8vZGlyLmRl
+ZmVuY2UuZ292LmF1L2NuJTNkQXVzdHJhbGlhbiUyMERlZmVuY2UlMjBQdWJsaWMl
+MjBSb290JTIwQ0Esb3UlM2RDQXMsb3UlM2RQS0ksb3UlM2REb0QsbyUzZEdPVixj
+JTNkQVU/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDAdBgNVHQ4EFgQUdKpgD9DT
+cQ4LtbOwtZINTSrcgKgwDQYJKoZIhvcNAQELBQADggEBAISklLbz5pGAVaS7RK9K
++ifaPtLmk0cB60YW6b+P52x8ETtKGZ5Cgk/gktDljmktDuJ6FBCFlF+H4tlSKXNW
+K9Qx9kRogsxUIrkQms2KH84zDP3qJxhBPtswZiOLDbIOB4PzcvDAcVvHdC0/oIFB
+nP0RYs+CsrmvBIo5PHC3op35bsQaH294eLW6y8nuX/QorF6Dgwi9TTKclKzfUHvz
+qR3CXkX4FWLyo1PkpH/3ygJWTJZObX2rDTYg4LZgIq8fAI/qfcZGcEEOnnJmo/66
+rmwCd9dYGGc461B8an+KqD3x1N2c8QTWnNGKcKFYrQCovkwuhkKFrIw1/3GSTvZV
+ks0=
+-----END CERTIFICATE-----
+
+subject=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Public Identity CA
+issuer=/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs/CN=Australian Defence Interoperability CA
+-----BEGIN CERTIFICATE-----
+MIIGiTCCBXGgAwIBAgIUBxfj1YlVDWJ5/hsUry75ANLMXGIwDQYJKoZIhvcNAQEL
+BQAwdjELMAkGA1UEBhMCQVUxDDAKBgNVBAoTA0dPVjEMMAoGA1UECxMDRG9EMQww
+CgYDVQQLEwNQS0kxDDAKBgNVBAsTA0NBczEvMC0GA1UEAxMmQXVzdHJhbGlhbiBE
+ZWZlbmNlIEludGVyb3BlcmFiaWxpdHkgQ0EwHhcNMTcwOTA0MjI1OTAyWhcNMjAw
+OTA0MjI1OTAyWjB1MQswCQYDVQQGEwJBVTEMMAoGA1UEChMDR09WMQwwCgYDVQQL
+EwNEb0QxDDAKBgNVBAsTA1BLSTEMMAoGA1UECxMDQ0FzMS4wLAYDVQQDEyVBdXN0
+cmFsaWFuIERlZmVuY2UgUHVibGljIElkZW50aXR5IENBMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA01FCuWVb4HqGjyKgUCGn0GDG0h0/CgFctP2pS2WA
+UN1xjCCb2AYaapNE2nx8OgMiGxeMM/Rz5sPZGxFQt+V/OsjhLlHJ2KuL7VkAP4zU
+kmvv6tox99T0idd9mhp522TEeOMFXh89bEJd9Y0+iNpgVk4oh8lwT47BBgqnckwm
+gcbiM66wnS/XYf//c+Y2ziufNgB5Tf4qJkgdSTvD6ugHxTKlz1AFQ3x56x/vFDu9
+nFAZG4kLIpC30+N9g337OgsSxjF2YkX6WyBbWfy3YVgSX78P7i/OBlDICtYGIynf
+fA6BvS5iyT/lAGiHsjxQbHTGhYis0e4ATv48TYON8kevZwIDAQABo4IDDjCCAwow
+DwYDVR0TAQH/BAUwAwEB/zCCAR0GCCsGAQUFBwEBBIIBDzCCAQswJgYIKwYBBQUH
+MAGGGmh0dHA6Ly9vY3NwLmRlZmVuY2UuZ292LmF1MD0GCCsGAQUFBzAChjFodHRw
+Oi8vY3JsLmRlZmVuY2UuZ292LmF1L3BraS9jZXJ0aWZpY2F0ZXMvQURJT0NBMIGh
+BggrBgEFBQcwAoaBlGxkYXA6Ly9kaXIuZGVmZW5jZS5nb3YuYXUvY249QXVzdHJh
+bGlhbiBEZWZlbmNlIEludGVyb3BlcmFiaWxpdHkgQ0Esb3U9Q0FzLG91PVBLSSxv
+dT1Eb0Qsbz1HT1YsYz1BVT9jQUNlcnRpZmljYXRlO2JpbmFyeSxjcm9zc0NlcnRp
+ZmljYXRlUGFpcjtiaW5hcnkwgagGA1UdIASBoDCBnTA4BgkqJAGCTgEBAQMwKzAp
+BggrBgEFBQcCARYdaHR0cDovL2NybC5kZWZlbmNlLmdvdi5hdS9wa2kwCwYJKiQB
+gk4BAgEBMAsGCSokAYJOAQIBAjALBgkqJAGCTgECAQMwCwYJKiQBgk4BAgEEMAsG
+CSokAYJOAQICATALBgkqJAGCTgECAgIwCwYJKiQBgk4BAgIDMAYGBFUdIAAwDgYD
+VR0PAQH/BAQDAgHGMB8GA1UdIwQYMBaAFGZbnlvbZmonWc3Zfb+K9p3Oi8zLMIHa
+BgNVHR8EgdIwgc8wMqAwoC6GLGh0dHA6Ly9jcmwuZGVmZW5jZS5nb3YuYXUvcGtp
+L2NybC9BRElPQ0EuY3JsMIGYoIGVoIGShoGPbGRhcDovL2Rpci5kZWZlbmNlLmdv
+di5hdS9jbiUzZEF1c3RyYWxpYW4lMjBEZWZlbmNlJTIwSW50ZXJvcGVyYWJpbGl0
+eSUyMENBLG91JTNkQ0FzLG91JTNkUEtJLG91JTNkRG9ELG8lM2RHT1YsYyUzZEFV
+P2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwHQYDVR0OBBYEFHSqYA/Q03EOC7Wz
+sLWSDU0q3ICoMA0GCSqGSIb3DQEBCwUAA4IBAQC0bsFRJDSqk0+ep8y1XZ0VtW6D
+sI14dK3ET8orNSgnxg0zIfyRTs8Vh4MxGNZ4O2o34vhShNlqFeEnrcG+X+1cYSv+
+MoDksrLz9NLOAbzLVaNWQPLeF1RTkMsmi3fvoqWcGqQT/RTxYg4anJStRfLbvqRs
++KPN8KtFx0xX/FX0q5xOE9dDhC+LwCYyczQb7KWGNpTnMTeVbetMkxOQl+cz6jvE
++oWYSeAgk1tRQPTQsSj2BU8TH6NFw1dLUodynTTnwTzKk7ahj+8B1l+tV8gkheiu
++vZ6UfNjSH5dAzGYNZDksXmMnP8tN1yxU/m0X/RQU/WZJFf+79bs21j/EFCq
+-----END CERTIFICATE-----
+

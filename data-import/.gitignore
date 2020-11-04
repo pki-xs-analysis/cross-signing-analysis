@@ -1,0 +1,5 @@
+certerrors.txt
+errlog
+testdata/*.statistics
+postgres
+serverlog

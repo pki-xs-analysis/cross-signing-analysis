@@ -1,0 +1,797 @@
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            11:22:37:d7:3b:d2:ef:f4:a2:b6:61:ed:7e:6b:f4:eb:d7:5d
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = OM, O = OMAN National PKI Center, CN = OMAN ROOT CA - 1
+        Validity
+            Not Before: Jun 12 00:00:00 2013 GMT
+            Not After : Jun 12 00:00:00 2033 GMT
+        Subject: C = OM, O = OMAN National PKI Center, CN = Government CA - 1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:da:42:cb:59:6b:1e:46:79:21:40:f6:08:f2:ca:
+                    85:d3:8a:94:59:d5:45:7f:87:8e:d4:7f:15:11:ba:
+                    04:48:7e:31:2c:ae:1a:79:19:1d:eb:92:ec:50:1c:
+                    90:2e:59:a0:45:b8:9a:45:70:71:c4:a0:a3:fc:14:
+                    a5:c2:b9:15:5a:83:71:5c:a0:86:72:94:ef:27:6d:
+                    0e:04:70:20:39:0e:be:51:b6:0e:c3:b5:86:e6:c3:
+                    64:6e:fa:6f:1d:b1:40:ee:25:fc:82:b1:a7:92:90:
+                    de:1f:94:a9:97:6f:db:8d:33:a6:27:89:27:25:eb:
+                    1f:87:11:36:7b:bb:76:f2:f8:a3:3e:19:8a:c1:bf:
+                    44:27:2d:61:09:20:5e:2a:3e:d8:94:71:7a:72:7f:
+                    e5:68:7a:01:74:f0:07:76:e0:ae:84:5c:1a:d3:89:
+                    1b:34:2b:38:bb:1a:ed:26:a9:7e:7a:80:6b:59:e9:
+                    b7:a8:12:29:4a:1f:a6:37:19:93:8f:6d:eb:2f:89:
+                    e5:a6:05:ec:df:5e:41:02:82:70:5d:d1:8a:78:37:
+                    62:54:75:67:cd:2d:1f:1f:60:be:7f:2d:59:62:bc:
+                    d1:e3:e8:dc:7b:99:75:b6:e6:8f:23:d4:fb:41:72:
+                    07:3f:b9:5c:54:4b:ec:83:63:40:45:5c:ae:ed:7b:
+                    d2:bd:83:78:d8:3c:38:a0:28:73:b3:75:53:ce:4a:
+                    19:fd:d6:d5:18:f7:4d:04:db:53:78:16:88:a1:dd:
+                    cf:a3:06:0e:24:51:7b:53:5a:3e:06:10:01:d1:75:
+                    b4:fe:cb:8c:30:29:96:b7:71:7a:a1:db:12:86:7a:
+                    70:27:6e:aa:3a:b7:63:c2:4d:5e:4e:8f:f5:16:c9:
+                    7c:56:88:8e:b7:7b:91:21:98:02:10:4f:4d:ae:6c:
+                    51:ea:1c:7d:07:2b:e2:dc:fa:b8:4b:7c:5a:25:df:
+                    9b:a8:d2:9e:62:93:d7:55:9e:0c:a9:33:e6:73:2f:
+                    0b:84:47:6d:f2:96:b6:72:b7:90:f3:86:e6:51:96:
+                    ee:a2:3f:d1:d1:80:0a:4d:82:68:db:f3:c2:e6:e6:
+                    9b:c0:35:60:10:b7:42:fb:5d:45:44:12:c1:67:b8:
+                    6e:7a:5a:ec:54:89:65:54:ec:37:42:37:b8:58:f9:
+                    0d:77:7b:a9:e8:7f:a1:ba:00:30:aa:14:92:49:98:
+                    79:54:1e:71:9c:36:d8:cc:d0:64:e6:9f:73:af:b9:
+                    24:a0:50:49:05:fe:2e:c1:86:70:5e:e3:e9:5c:e7:
+                    76:b7:1b:e8:22:24:ce:e9:58:04:97:76:d2:a9:99:
+                    0d:4e:23:0a:76:bb:8a:c3:ae:c2:60:25:a0:82:d6:
+                    5b:71:3b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.ita.gov.om/crl/root-ca-1.crl
+
+                Full Name:
+                  URI:ldap://ldap.pki.ita.gov.om/CN=OMAN%20ROOT%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?certificateRevocationList;binary?base?objectClass=pkiCA
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.ita.gov.om/CACerts/root-ca-1.p7c
+                CA Issuers - URI:ldap://ldap.pki.ita.gov.om/CN=OMAN%20ROOT%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?cACertificate;binary?base?objectClass=pkiCA
+
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://pki.ita.gov.om/cp/
+
+            X509v3 Subject Key Identifier: 
+                D1:FD:49:97:2C:10:70:DE:3D:51:EB:81:71:EE:CE:9D:AE:47:04:C5
+            X509v3 Authority Key Identifier: 
+                keyid:D3:1D:F3:F1:F2:06:68:D6:40:79:D4:B0:C4:E8:4D:F7:2F:07:15:DC
+
+    Signature Algorithm: sha256WithRSAEncryption
+         6d:49:f1:b2:03:cf:d0:06:74:0a:a5:a3:a1:68:02:68:1b:88:
+         11:83:c5:26:e5:3f:64:f3:db:a5:0d:a6:e7:ef:fe:3f:a9:e0:
+         df:0b:90:7e:0d:8e:11:87:ec:92:8b:89:20:64:5a:2f:41:ea:
+         83:b3:86:13:da:77:4e:84:fe:d7:c7:7c:48:86:3a:34:c6:e2:
+         e7:cb:52:0e:42:a3:36:67:a0:22:1e:5b:ac:7d:cb:b0:16:c5:
+         26:a2:88:f5:fa:a3:d4:c8:ee:f1:62:4c:82:e4:40:07:73:54:
+         76:5e:d5:e6:1c:8c:93:7c:de:c8:b0:9c:6e:51:8f:fa:59:10:
+         48:1a:f2:3c:59:4c:ed:9d:8b:28:0c:c5:ba:13:a6:95:59:cb:
+         b2:f8:31:12:cd:16:62:b4:c1:47:3e:9c:e5:83:80:e2:23:7b:
+         82:04:65:f1:d6:f2:35:4d:c4:07:97:01:f7:a2:c4:b4:9f:38:
+         81:6c:68:44:9e:e0:63:57:cc:d5:ca:43:53:1e:30:bb:a0:65:
+         9d:c5:81:e9:34:d9:bb:53:01:23:00:d6:aa:d6:5a:6a:ea:31:
+         b9:eb:ed:e4:e2:2b:f9:db:bd:df:c6:d2:5a:8b:37:a4:73:2a:
+         ad:3b:cd:28:ca:33:37:a4:56:4c:e5:c6:42:fc:18:ba:ee:29:
+         c3:fe:98:1d:c1:f7:7b:b5:f6:a2:ad:9c:75:45:37:90:3e:c2:
+         3d:fa:83:c5:10:75:46:7e:3d:d9:4c:61:af:78:57:16:4d:d1:
+         d6:67:eb:de:44:7a:2d:3b:7f:52:73:fd:39:5d:03:f2:57:34:
+         7d:12:ee:0c:7e:b6:86:8d:17:d6:fe:77:aa:4d:f0:eb:4f:88:
+         79:e5:1c:a6:61:c2:95:5f:46:0d:e1:6d:34:e5:ac:02:c8:19:
+         d2:8c:b3:d3:2e:b9:60:dd:be:5c:bf:88:ca:33:03:5a:d2:9e:
+         a6:b9:47:d7:39:ab:aa:08:2a:40:2e:22:14:2b:a4:ca:c8:72:
+         c5:4d:fc:09:7a:dd:78:3e:79:d6:ed:29:0e:4f:41:dd:15:3c:
+         38:06:aa:3e:2f:fe:20:05:d3:f5:9d:1f:3f:41:6c:06:96:1e:
+         26:91:84:3f:e7:5f:69:d7:78:30:d5:2f:0d:3a:03:03:7d:35:
+         b0:8e:08:83:45:90:83:d0:61:24:c3:e2:34:fe:70:71:99:27:
+         9a:29:f3:00:58:9f:66:05:51:58:2f:78:24:8e:81:be:31:eb:
+         b9:92:d8:2b:b2:1a:75:ec:0d:c0:38:49:14:31:63:59:1f:97:
+         69:d9:12:15:72:4b:f9:8b:15:29:b5:7d:5e:6b:3f:4f:6d:a1:
+         a9:31:51:c5:7a:a5:49:9d
+-----BEGIN CERTIFICATE-----
+MIIHhzCCBW+gAwIBAgISESI31zvS7/SitmHtfmv069ddMA0GCSqGSIb3DQEBCwUA
+MEsxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGTAXBgNVBAMMEE9NQU4gUk9PVCBDQSAtIDEwHhcNMTMwNjEyMDAwMDAwWhcN
+MzMwNjEyMDAwMDAwWjBMMQswCQYDVQQGEwJPTTEhMB8GA1UECgwYT01BTiBOYXRp
+b25hbCBQS0kgQ2VudGVyMRowGAYDVQQDDBFHb3Zlcm5tZW50IENBIC0gMTCCAiIw
+DQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANpCy1lrHkZ5IUD2CPLKhdOKlFnV
+RX+HjtR/FRG6BEh+MSyuGnkZHeuS7FAckC5ZoEW4mkVwccSgo/wUpcK5FVqDcVyg
+hnKU7ydtDgRwIDkOvlG2DsO1hubDZG76bx2xQO4l/IKxp5KQ3h+UqZdv240zpieJ
+JyXrH4cRNnu7dvL4oz4ZisG/RCctYQkgXio+2JRxenJ/5Wh6AXTwB3bgroRcGtOJ
+GzQrOLsa7SapfnqAa1npt6gSKUofpjcZk49t6y+J5aYF7N9eQQKCcF3Ring3YlR1
+Z80tHx9gvn8tWWK80ePo3HuZdbbmjyPU+0FyBz+5XFRL7INjQEVcru170r2DeNg8
+OKAoc7N1U85KGf3W1Rj3TQTbU3gWiKHdz6MGDiRRe1NaPgYQAdF1tP7LjDAplrdx
+eqHbEoZ6cCduqjq3Y8JNXk6P9RbJfFaIjrd7kSGYAhBPTa5sUeocfQcr4tz6uEt8
+WiXfm6jSnmKT11WeDKkz5nMvC4RHbfKWtnK3kPOG5lGW7qI/0dGACk2CaNvzwubm
+m8A1YBC3QvtdRUQSwWe4bnpa7FSJZVTsN0I3uFj5DXd7qeh/oboAMKoUkkmYeVQe
+cZw22MzQZOafc6+5JKBQSQX+LsGGcF7j6Vzndrcb6CIkzulYBJd20qmZDU4jCna7
+isOuwmAloILWW3E7AgMBAAGjggJiMIICXjAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0T
+AQH/BAUwAwEB/zCB2gYDVR0fBIHSMIHPMC2gK6AphidodHRwOi8vcGtpLml0YS5n
+b3Yub20vY3JsL3Jvb3QtY2EtMS5jcmwwgZ2ggZqggZeGgZRsZGFwOi8vbGRhcC5w
+a2kuaXRhLmdvdi5vbS9DTj1PTUFOJTIwUk9PVCUyMENBJTIwLSUyMDEsTz1PTUFO
+JTIwTmF0aW9uYWwlMjBQS0klMjBDZW50ZXIsQz1PTT9jZXJ0aWZpY2F0ZVJldm9j
+YXRpb25MaXN0O2JpbmFyeT9iYXNlP29iamVjdENsYXNzPXBraUNBMIHhBggrBgEF
+BQcBAQSB1DCB0TA3BggrBgEFBQcwAoYraHR0cDovL3BraS5pdGEuZ292Lm9tL0NB
+Q2VydHMvcm9vdC1jYS0xLnA3YzCBlQYIKwYBBQUHMAKGgYhsZGFwOi8vbGRhcC5w
+a2kuaXRhLmdvdi5vbS9DTj1PTUFOJTIwUk9PVCUyMENBJTIwLSUyMDEsTz1PTUFO
+JTIwTmF0aW9uYWwlMjBQS0klMjBDZW50ZXIsQz1PTT9jQUNlcnRpZmljYXRlO2Jp
+bmFyeT9iYXNlP29iamVjdENsYXNzPXBraUNBMDoGA1UdIAQzMDEwLwYEVR0gADAn
+MCUGCCsGAQUFBwIBFhlodHRwOi8vcGtpLml0YS5nb3Yub20vY3AvMB0GA1UdDgQW
+BBTR/UmXLBBw3j1R64Fx7s6drkcExTAfBgNVHSMEGDAWgBTTHfPx8gZo1kB51LDE
+6E33LwcV3DANBgkqhkiG9w0BAQsFAAOCAgEAbUnxsgPP0AZ0CqWjoWgCaBuIEYPF
+JuU/ZPPbpQ2m5+/+P6ng3wuQfg2OEYfskouJIGRaL0Hqg7OGE9p3ToT+18d8SIY6
+NMbi58tSDkKjNmegIh5brH3LsBbFJqKI9fqj1Mju8WJMguRAB3NUdl7V5hyMk3ze
+yLCcblGP+lkQSBryPFlM7Z2LKAzFuhOmlVnLsvgxEs0WYrTBRz6c5YOA4iN7ggRl
+8dbyNU3EB5cB96LEtJ84gWxoRJ7gY1fM1cpDUx4wu6BlncWB6TTZu1MBIwDWqtZa
+auoxuevt5OIr+du938bSWos3pHMqrTvNKMozN6RWTOXGQvwYuu4pw/6YHcH3e7X2
+oq2cdUU3kD7CPfqDxRB1Rn492Uxhr3hXFk3R1mfr3kR6LTt/UnP9OV0D8lc0fRLu
+DH62ho0X1v53qk3w60+IeeUcpmHClV9GDeFtNOWsAsgZ0oyz0y65YN2+XL+IyjMD
+WtKeprlH1zmrqggqQC4iFCukyshyxU38CXrdeD551u0pDk9B3RU8OAaqPi/+IAXT
+9Z0fP0FsBpYeJpGEP+dfadd4MNUvDToDA301sI4Ig0WQg9BhJMPiNP5wcZknminz
+AFifZgVRWC94JI6BvjHruZLYK7IadewNwDhJFDFjWR+XadkSFXJL+YsVKbV9Xms/
+T22hqTFRxXqlSZ0=
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            11:22:ae:33:b9:7b:a4:07:5b:5c:f8:06:99:0c:62:6a:76:5c
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = OM, O = OMAN National PKI Center, CN = Commercial CA - 1
+        Validity
+            Not Before: Jun 12 00:00:00 2013 GMT
+            Not After : Jun 12 00:00:00 2023 GMT
+        Subject: C = OM, O = OMAN National PKI Center, OU = Commercial, CN = Device CA - 1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:c8:03:57:ea:dd:3c:13:9a:2d:9e:e5:a2:ee:dd:
+                    11:89:15:9c:30:b4:d4:a7:ab:c4:1a:b2:27:32:16:
+                    c0:c6:d5:6e:19:c3:02:6b:6d:8a:8c:d8:b4:de:92:
+                    28:77:4e:e1:e6:eb:14:77:60:35:15:16:29:2b:24:
+                    4d:52:00:13:28:0e:59:48:8e:3f:bb:f2:8b:cf:cd:
+                    2c:a1:4c:5a:54:ef:14:36:33:7b:e2:e0:4b:5d:8b:
+                    6a:2f:d8:7c:44:93:b3:4f:c3:c4:d7:83:d0:35:bf:
+                    d1:22:8b:13:73:31:04:bd:79:af:d3:37:e2:13:88:
+                    ef:27:ec:76:a6:0a:a9:37:04:96:58:32:ef:69:4a:
+                    23:a7:9a:ec:e0:47:e6:7e:66:b5:98:c9:96:d2:bb:
+                    59:ba:47:79:ff:91:90:8d:dd:e6:fd:60:80:78:db:
+                    5e:75:7a:f2:cb:fd:e7:f3:77:d9:c1:fa:2f:e3:63:
+                    5e:da:c8:87:fb:0b:61:8b:2a:6e:12:11:44:91:41:
+                    11:63:ff:ff:6f:67:10:78:06:26:5b:86:99:ed:c1:
+                    7c:a7:a8:44:19:e3:ac:9d:56:46:98:0f:bd:80:21:
+                    bb:d2:b0:3a:ac:9b:c1:6c:dd:c3:52:3b:02:88:1f:
+                    f9:06:ee:30:be:ea:e1:f0:4f:7a:80:00:4b:dc:13:
+                    86:f8:2e:3b:6b:1f:1b:2d:07:4e:ca:01:e3:08:fe:
+                    fc:47:05:7e:cc:b7:cc:ac:94:c0:fb:70:f5:59:b9:
+                    96:4e:1b:77:ef:d4:9e:83:2e:05:7d:29:64:14:cc:
+                    61:91:3c:e7:79:dc:bb:c3:f6:04:bd:e4:32:30:90:
+                    d6:c6:24:20:7e:83:9b:cd:92:85:a4:cc:de:3f:d5:
+                    81:20:ca:6b:01:8b:db:ab:9f:ec:12:f3:d7:a2:88:
+                    fb:7c:09:dd:ab:b0:ac:7f:de:cb:a7:32:b6:ba:1a:
+                    b6:58:4d:c0:9d:c5:21:09:5e:da:37:f3:c4:57:37:
+                    3c:c5:ac:41:2d:e6:a8:c5:6d:a9:e6:cf:50:2e:0f:
+                    b9:8c:d3:85:5d:7b:94:81:d2:44:e4:3d:5f:2f:b8:
+                    d6:4a:ad:0c:01:14:f8:e0:4b:60:ca:f4:e0:3a:d6:
+                    f2:c4:52:53:0b:d5:8f:41:36:1d:19:fc:2b:32:a1:
+                    ad:88:e8:19:3a:85:ac:0c:51:9b:f7:05:a4:15:a5:
+                    58:9a:43:4c:22:25:48:b7:75:00:06:1a:24:20:34:
+                    db:33:30:13:ec:01:1e:02:0a:02:24:7a:a7:49:13:
+                    b4:37:c1:d7:b5:c7:07:b6:7f:c2:c9:81:86:37:4e:
+                    62:28:87:19:95:d6:6c:40:05:b2:c2:22:7c:39:ad:
+                    46:cf:93
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.ita.gov.om/crl/commercial-ca-1.crl
+
+                Full Name:
+                  URI:ldap://ldap.pki.ita.gov.om/CN=Commercial%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?certificateRevocationList;binary?base?objectClass=pkiCA
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.ita.gov.om/CACerts/commercial-ca-1.p7c
+                CA Issuers - URI:ldap://ldap.pki.ita.gov.om/CN=Commercial%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?cACertificate;binary?base?objectClass=pkiCA
+
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://pki.ita.gov.om/cp/
+
+            X509v3 Subject Key Identifier: 
+                D0:BA:7B:73:21:D6:55:66:08:2F:49:60:D0:D3:45:20:DB:05:19:76
+            X509v3 Authority Key Identifier: 
+                keyid:C4:40:62:D6:72:8A:CC:3F:46:55:DE:92:C6:87:2B:0F:55:6C:DE:DB
+
+    Signature Algorithm: sha256WithRSAEncryption
+         7e:e1:03:08:a5:bd:5b:a3:1c:bf:c4:05:b2:ab:cf:0f:07:ea:
+         e2:31:5d:c7:21:bf:0f:00:f3:55:d6:8b:1a:a0:ff:f9:af:cd:
+         9e:61:1d:c9:73:f0:14:25:e3:e8:31:66:aa:6c:49:44:5b:e0:
+         be:ce:07:ae:dd:d4:74:61:a4:8c:0d:70:42:e9:0c:8c:cf:3c:
+         5b:cc:ee:6d:3e:a1:75:30:cd:7d:f9:d0:63:7f:6a:fa:76:e0:
+         3c:db:2b:3d:41:e9:09:35:7c:e3:ec:f6:dd:f0:e5:43:97:92:
+         60:f1:b0:af:1c:5f:c0:e4:b6:93:58:b9:c1:1d:fd:ae:7f:d1:
+         83:3e:4e:84:16:05:03:9a:69:af:34:73:ee:d2:2e:cf:e3:0e:
+         21:13:53:fc:55:5b:c3:8a:d0:35:84:06:fa:cf:17:d7:e4:fb:
+         dc:48:73:44:8b:a8:e3:b5:58:69:26:aa:bf:d8:7b:58:6e:a6:
+         af:60:d8:6b:a7:1a:ee:46:35:06:36:3e:c2:49:83:6d:96:5f:
+         fb:32:bc:62:09:16:9d:09:1a:a9:79:02:e8:32:f8:eb:12:88:
+         a8:58:df:d9:d8:34:c9:49:63:32:42:8e:4a:68:82:2f:d2:b0:
+         ed:24:a8:bf:5c:54:6f:f7:19:07:b9:e9:95:e6:18:e6:c0:dc:
+         5b:a1:25:ce:5f:f2:43:bd:00:85:4a:95:74:d4:4e:8f:41:43:
+         10:ba:81:eb:82:ab:38:c8:0a:46:c6:6f:cd:cf:40:7e:41:a9:
+         94:74:fc:61:37:27:b8:f6:3c:d8:41:76:53:4d:cd:3e:3d:99:
+         e3:48:f8:97:c4:99:f9:67:5e:ab:8a:8f:0b:ae:08:0c:7f:ae:
+         5f:89:95:96:31:57:35:26:dd:2c:5c:4b:39:85:50:b1:3a:f4:
+         01:b8:5e:df:c8:c9:0c:7e:b8:a0:1a:b3:7b:c6:a2:c2:2e:ae:
+         e9:86:f3:b8:ea:4b:8b:7d:45:ae:ff:3b:58:db:7d:46:ef:92:
+         62:71:27:2f:a5:50:e4:b3:27:7e:92:68:b5:dd:ad:55:4d:99:
+         9e:87:b7:24:65:f4:cf:2c:25:55:45:27:03:2b:0e:49:b5:94:
+         b9:ec:9b:8a:75:3c:65:b5:1e:47:93:12:31:03:76:1c:b7:f4:
+         48:3b:e1:ec:d6:50:1e:dd:d5:dd:71:df:70:0e:93:fd:9c:6f:
+         e5:bb:f7:0f:9c:35:6f:87:a3:f5:c6:42:4c:b3:69:f6:ce:d5:
+         6b:d6:2f:44:da:a4:58:0f:93:2f:7d:a1:9d:4c:26:61:c6:cd:
+         7b:86:38:cc:db:a6:34:40:68:b1:cc:1d:c4:cb:4e:6b:cd:db:
+         a6:52:3e:1e:0b:9f:72:1d
+-----BEGIN CERTIFICATE-----
+MIIHpjCCBY6gAwIBAgISESKuM7l7pAdbXPgGmQxianZcMA0GCSqGSIb3DQEBCwUA
+MEwxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGjAYBgNVBAMMEUNvbW1lcmNpYWwgQ0EgLSAxMB4XDTEzMDYxMjAwMDAwMFoX
+DTIzMDYxMjAwMDAwMFowXTELMAkGA1UEBhMCT00xITAfBgNVBAoMGE9NQU4gTmF0
+aW9uYWwgUEtJIENlbnRlcjETMBEGA1UECwwKQ29tbWVyY2lhbDEWMBQGA1UEAwwN
+RGV2aWNlIENBIC0gMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMgD
+V+rdPBOaLZ7lou7dEYkVnDC01KerxBqyJzIWwMbVbhnDAmttiozYtN6SKHdO4ebr
+FHdgNRUWKSskTVIAEygOWUiOP7vyi8/NLKFMWlTvFDYze+LgS12Lai/YfESTs0/D
+xNeD0DW/0SKLE3MxBL15r9M34hOI7yfsdqYKqTcEllgy72lKI6ea7OBH5n5mtZjJ
+ltK7WbpHef+RkI3d5v1ggHjbXnV68sv95/N32cH6L+NjXtrIh/sLYYsqbhIRRJFB
+EWP//29nEHgGJluGme3BfKeoRBnjrJ1WRpgPvYAhu9KwOqybwWzdw1I7Aogf+Qbu
+ML7q4fBPeoAAS9wThvguO2sfGy0HTsoB4wj+/EcFfsy3zKyUwPtw9Vm5lk4bd+/U
+noMuBX0pZBTMYZE853ncu8P2BL3kMjCQ1sYkIH6Dm82ShaTM3j/VgSDKawGL26uf
+7BLz16KI+3wJ3auwrH/ey6cytroatlhNwJ3FIQle2jfzxFc3PMWsQS3mqMVtqebP
+UC4PuYzThV17lIHSROQ9Xy+41kqtDAEU+OBLYMr04DrW8sRSUwvVj0E2HRn8KzKh
+rYjoGTqFrAxRm/cFpBWlWJpDTCIlSLd1AAYaJCA02zMwE+wBHgIKAiR6p0kTtDfB
+17XHB7Z/wsmBhjdOYiiHGZXWbEAFssIifDmtRs+TAgMBAAGjggJvMIICazAOBgNV
+HQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADCB3wYDVR0fBIHXMIHUMDOg
+MaAvhi1odHRwOi8vcGtpLml0YS5nb3Yub20vY3JsL2NvbW1lcmNpYWwtY2EtMS5j
+cmwwgZyggZmggZaGgZNsZGFwOi8vbGRhcC5wa2kuaXRhLmdvdi5vbS9DTj1Db21t
+ZXJjaWFsJTIwQ0ElMjAtJTIwMSxPPU9NQU4lMjBOYXRpb25hbCUyMFBLSSUyMENl
+bnRlcixDPU9NP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/
+b2JqZWN0Q2xhc3M9cGtpQ0EwgeYGCCsGAQUFBwEBBIHZMIHWMD0GCCsGAQUFBzAC
+hjFodHRwOi8vcGtpLml0YS5nb3Yub20vQ0FDZXJ0cy9jb21tZXJjaWFsLWNhLTEu
+cDdjMIGUBggrBgEFBQcwAoaBh2xkYXA6Ly9sZGFwLnBraS5pdGEuZ292Lm9tL0NO
+PUNvbW1lcmNpYWwlMjBDQSUyMC0lMjAxLE89T01BTiUyME5hdGlvbmFsJTIwUEtJ
+JTIwQ2VudGVyLEM9T00/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnk/YmFzZT9vYmplY3RD
+bGFzcz1wa2lDQTA6BgNVHSAEMzAxMC8GBFUdIAAwJzAlBggrBgEFBQcCARYZaHR0
+cDovL3BraS5pdGEuZ292Lm9tL2NwLzAdBgNVHQ4EFgQU0Lp7cyHWVWYIL0lg0NNF
+INsFGXYwHwYDVR0jBBgwFoAUxEBi1nKKzD9GVd6SxocrD1Vs3tswDQYJKoZIhvcN
+AQELBQADggIBAH7hAwilvVujHL/EBbKrzw8H6uIxXcchvw8A81XWixqg//mvzZ5h
+Hclz8BQl4+gxZqpsSURb4L7OB67d1HRhpIwNcELpDIzPPFvM7m0+oXUwzX350GN/
+avp24DzbKz1B6Qk1fOPs9t3w5UOXkmDxsK8cX8DktpNYucEd/a5/0YM+ToQWBQOa
+aa80c+7SLs/jDiETU/xVW8OK0DWEBvrPF9fk+9xIc0SLqOO1WGkmqr/Ye1hupq9g
+2GunGu5GNQY2PsJJg22WX/syvGIJFp0JGql5Augy+OsSiKhY39nYNMlJYzJCjkpo
+gi/SsO0kqL9cVG/3GQe56ZXmGObA3FuhJc5f8kO9AIVKlXTUTo9BQxC6geuCqzjI
+CkbGb83PQH5BqZR0/GE3J7j2PNhBdlNNzT49meNI+JfEmflnXquKjwuuCAx/rl+J
+lZYxVzUm3SxcSzmFULE69AG4Xt/IyQx+uKAas3vGosIurumG87jqS4t9Ra7/O1jb
+fUbvkmJxJy+lUOSzJ36SaLXdrVVNmZ6HtyRl9M8sJVVFJwMrDkm1lLnsm4p1PGW1
+HkeTEjEDdhy39Eg74ezWUB7d1d1x33AOk/2cb+W79w+cNW+Ho/XGQkyzafbO1WvW
+L0TapFgPky99oZ1MJmHGzXuGOMzbpjRAaLHMHcTLTmvN26ZSPh4Ln3Id
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            11:22:e4:84:84:c0:79:13:20:59:d0:eb:91:4a:79:9e:99:ba
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = OM, O = OMAN National PKI Center, CN = OMAN ROOT CA - 1
+        Validity
+            Not Before: Jun 12 00:00:00 2013 GMT
+            Not After : Jun 12 00:00:00 2033 GMT
+        Subject: C = OM, O = OMAN National PKI Center, CN = Commercial CA - 1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:b3:db:a6:a9:38:b7:b6:48:ce:29:0d:50:24:fc:
+                    79:d6:04:10:3c:34:2d:dd:f7:30:9d:53:b4:29:c3:
+                    55:f2:df:6c:92:fd:31:36:68:c1:98:57:c3:04:1f:
+                    44:ff:44:64:fe:2e:15:4b:fd:bb:bb:f7:24:1f:44:
+                    50:35:81:63:8b:e5:b4:27:c5:d2:a6:f0:58:31:eb:
+                    07:fd:e8:bd:ad:20:c2:15:72:a8:5f:2a:86:60:4b:
+                    f5:38:f5:29:d2:71:59:11:fd:ae:de:a7:52:a6:b5:
+                    cc:8f:9b:02:78:69:79:44:1b:cc:6c:5b:4a:c5:a5:
+                    da:88:b8:a1:c7:92:ce:d1:07:6a:0e:76:fc:df:98:
+                    9b:c5:bc:8d:d9:b9:ec:b0:be:41:20:f6:53:2d:3b:
+                    0d:0e:56:c3:0d:83:1a:61:8d:04:57:38:c1:af:29:
+                    03:1d:a6:98:18:d1:d5:ca:e4:81:f0:55:61:2f:55:
+                    31:f9:a0:1d:08:75:79:49:42:c7:35:7f:55:0b:d8:
+                    35:ed:be:33:da:9c:74:e4:50:42:fc:94:ef:b7:ed:
+                    29:33:f9:02:0c:fd:86:f5:de:6a:15:0b:dc:b1:3f:
+                    55:dc:81:70:6d:b3:06:75:dd:b3:86:18:07:c7:a7:
+                    c9:fc:85:bc:01:a4:4b:1b:dd:c9:b9:6e:48:84:68:
+                    eb:4e:68:fb:2b:17:c9:ce:dd:85:76:3e:92:62:e0:
+                    58:d1:5f:3f:18:9e:9e:58:81:d5:54:55:3c:e6:10:
+                    54:03:5b:f3:54:1b:da:44:9b:bc:59:e5:3a:2c:26:
+                    bc:26:38:f1:f4:b3:78:ca:b8:12:b7:cd:e1:c6:0f:
+                    29:40:4a:be:84:f2:b3:0a:4a:14:9f:df:7f:3e:af:
+                    dd:9b:35:2e:a2:05:74:ba:3c:29:e2:91:9b:f2:2e:
+                    a7:3d:fc:54:5b:0e:a3:99:21:57:0f:c3:79:3b:8b:
+                    3b:9e:2b:01:a4:a0:91:d8:46:b7:cc:3e:e4:aa:85:
+                    e1:fc:cc:31:24:25:0b:68:3a:5c:2b:f0:96:66:01:
+                    05:1a:b6:85:c8:0e:0e:0a:d9:41:45:59:42:88:0a:
+                    0c:f1:cf:ce:dd:60:6d:7e:51:65:17:bd:c0:e3:01:
+                    45:ea:6b:6a:2a:1d:72:23:eb:d5:bf:ef:a9:ff:49:
+                    d4:a1:c8:d4:8e:a4:90:4e:a0:56:49:06:da:2c:72:
+                    9f:93:fa:b0:06:c0:37:90:d3:52:26:25:61:d6:9e:
+                    d1:02:7f:71:cf:72:94:36:a6:cc:81:40:d4:72:b4:
+                    ae:ba:14:65:75:d3:c7:7b:6a:2e:e2:5c:08:b7:f3:
+                    86:f6:c2:8d:80:f4:ba:36:06:b4:dc:0d:2c:bf:f6:
+                    fd:c1:c1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.ita.gov.om/crl/root-ca-1.crl
+
+                Full Name:
+                  URI:ldap://ldap.pki.ita.gov.om/CN=OMAN%20ROOT%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?certificateRevocationList;binary?base?objectClass=pkiCA
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.ita.gov.om/CACerts/root-ca-1.p7c
+                CA Issuers - URI:ldap://ldap.pki.ita.gov.om/CN=OMAN%20ROOT%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?cACertificate;binary?base?objectClass=pkiCA
+
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://pki.ita.gov.om/cp/
+
+            X509v3 Subject Key Identifier: 
+                C4:40:62:D6:72:8A:CC:3F:46:55:DE:92:C6:87:2B:0F:55:6C:DE:DB
+            X509v3 Authority Key Identifier: 
+                keyid:D3:1D:F3:F1:F2:06:68:D6:40:79:D4:B0:C4:E8:4D:F7:2F:07:15:DC
+
+    Signature Algorithm: sha256WithRSAEncryption
+         d9:d4:a5:d9:f4:8b:0d:ce:66:45:ca:f2:f1:3d:6b:ed:61:cc:
+         08:26:d2:04:98:bd:c9:db:56:9d:cd:4e:26:3f:99:fc:26:0b:
+         49:12:27:f5:55:7e:94:77:5e:85:ee:77:b1:bc:5b:a1:34:98:
+         54:92:21:5c:ab:81:17:11:a4:45:4d:bd:f7:fa:68:eb:ac:00:
+         85:7c:9b:22:21:54:1e:16:50:9f:fe:09:e2:8c:83:70:8f:da:
+         72:d3:90:cf:7e:1e:a9:78:91:c9:c2:f7:09:0c:e8:9b:1a:b9:
+         79:a6:db:e3:4d:89:92:3f:b3:45:2a:1f:2e:b5:c7:73:2e:61:
+         61:46:a0:e9:ec:72:17:5b:5c:23:60:61:dd:4a:18:69:49:39:
+         ef:fb:9e:58:d7:e0:d6:d5:46:d9:82:93:7c:bd:48:64:9e:3b:
+         5b:cc:1f:61:18:15:95:3e:aa:fb:18:7c:3e:f9:61:95:99:9e:
+         71:7c:1a:16:d3:94:1b:7b:1c:da:f4:14:6d:f9:b2:3f:6f:ff:
+         3f:18:cc:91:96:c2:69:4d:b3:4c:0c:bb:91:27:3a:a0:40:53:
+         ee:c0:8d:1b:93:99:8f:1a:09:5f:9e:3c:c7:23:df:9c:bf:aa:
+         81:fa:dc:b6:14:13:a3:c7:0c:09:b2:ae:94:57:e5:cc:25:68:
+         72:21:12:86:36:a4:4b:3f:a8:4d:a2:4c:11:e2:08:e9:1d:81:
+         8d:c7:43:c0:31:bb:8b:6d:44:b7:57:8b:fe:51:19:9b:e6:b9:
+         e3:ee:c7:7e:86:a5:14:57:25:44:32:48:3a:39:92:aa:e4:9f:
+         e8:e6:a1:d7:62:b4:c5:d7:e2:c8:4b:83:f0:3d:0d:92:eb:e3:
+         a5:c9:6d:74:5a:40:2a:f7:99:90:c3:f2:c1:9b:0a:76:20:f4:
+         f8:55:7c:55:8c:99:b3:6b:5f:54:45:ab:ac:28:4d:12:a4:50:
+         c1:cb:1b:d3:79:b1:9f:07:47:fa:5a:07:95:98:33:d1:17:30:
+         41:c4:13:23:a6:d9:00:ff:38:fd:7f:46:25:ce:cf:65:00:da:
+         d5:a2:b5:87:16:4f:af:8d:f2:37:cb:78:83:dd:ab:39:42:3b:
+         78:12:0f:34:13:5e:f6:39:dd:29:f8:20:8f:f7:0a:83:95:0d:
+         34:b1:95:78:c8:52:e3:fd:18:1b:42:82:c7:a4:c0:4c:e8:a0:
+         cd:30:28:3e:3a:88:21:cd:cc:24:94:b5:50:a0:cb:4a:e5:71:
+         e4:b3:cd:02:23:d4:06:89:61:a0:12:9b:2e:52:70:37:e1:ac:
+         a1:0b:36:67:7d:e3:dc:68:a7:c9:c4:39:5d:15:08:03:42:61:
+         7f:04:44:dd:c2:81:a6:ad
+-----BEGIN CERTIFICATE-----
+MIIHhzCCBW+gAwIBAgISESLkhITAeRMgWdDrkUp5npm6MA0GCSqGSIb3DQEBCwUA
+MEsxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGTAXBgNVBAMMEE9NQU4gUk9PVCBDQSAtIDEwHhcNMTMwNjEyMDAwMDAwWhcN
+MzMwNjEyMDAwMDAwWjBMMQswCQYDVQQGEwJPTTEhMB8GA1UECgwYT01BTiBOYXRp
+b25hbCBQS0kgQ2VudGVyMRowGAYDVQQDDBFDb21tZXJjaWFsIENBIC0gMTCCAiIw
+DQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALPbpqk4t7ZIzikNUCT8edYEEDw0
+Ld33MJ1TtCnDVfLfbJL9MTZowZhXwwQfRP9EZP4uFUv9u7v3JB9EUDWBY4vltCfF
+0qbwWDHrB/3ova0gwhVyqF8qhmBL9Tj1KdJxWRH9rt6nUqa1zI+bAnhpeUQbzGxb
+SsWl2oi4oceSztEHag52/N+Ym8W8jdm57LC+QSD2Uy07DQ5Www2DGmGNBFc4wa8p
+Ax2mmBjR1crkgfBVYS9VMfmgHQh1eUlCxzV/VQvYNe2+M9qcdORQQvyU77ftKTP5
+Agz9hvXeahUL3LE/VdyBcG2zBnXds4YYB8enyfyFvAGkSxvdybluSIRo605o+ysX
+yc7dhXY+kmLgWNFfPxienliB1VRVPOYQVANb81Qb2kSbvFnlOiwmvCY48fSzeMq4
+ErfN4cYPKUBKvoTyswpKFJ/ffz6v3Zs1LqIFdLo8KeKRm/Iupz38VFsOo5khVw/D
+eTuLO54rAaSgkdhGt8w+5KqF4fzMMSQlC2g6XCvwlmYBBRq2hcgODgrZQUVZQogK
+DPHPzt1gbX5RZRe9wOMBRepraiodciPr1b/vqf9J1KHI1I6kkE6gVkkG2ixyn5P6
+sAbAN5DTUiYlYdae0QJ/cc9ylDamzIFA1HK0rroUZXXTx3tqLuJcCLfzhvbCjYD0
+ujYGtNwNLL/2/cHBAgMBAAGjggJiMIICXjAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0T
+AQH/BAUwAwEB/zCB2gYDVR0fBIHSMIHPMC2gK6AphidodHRwOi8vcGtpLml0YS5n
+b3Yub20vY3JsL3Jvb3QtY2EtMS5jcmwwgZ2ggZqggZeGgZRsZGFwOi8vbGRhcC5w
+a2kuaXRhLmdvdi5vbS9DTj1PTUFOJTIwUk9PVCUyMENBJTIwLSUyMDEsTz1PTUFO
+JTIwTmF0aW9uYWwlMjBQS0klMjBDZW50ZXIsQz1PTT9jZXJ0aWZpY2F0ZVJldm9j
+YXRpb25MaXN0O2JpbmFyeT9iYXNlP29iamVjdENsYXNzPXBraUNBMIHhBggrBgEF
+BQcBAQSB1DCB0TA3BggrBgEFBQcwAoYraHR0cDovL3BraS5pdGEuZ292Lm9tL0NB
+Q2VydHMvcm9vdC1jYS0xLnA3YzCBlQYIKwYBBQUHMAKGgYhsZGFwOi8vbGRhcC5w
+a2kuaXRhLmdvdi5vbS9DTj1PTUFOJTIwUk9PVCUyMENBJTIwLSUyMDEsTz1PTUFO
+JTIwTmF0aW9uYWwlMjBQS0klMjBDZW50ZXIsQz1PTT9jQUNlcnRpZmljYXRlO2Jp
+bmFyeT9iYXNlP29iamVjdENsYXNzPXBraUNBMDoGA1UdIAQzMDEwLwYEVR0gADAn
+MCUGCCsGAQUFBwIBFhlodHRwOi8vcGtpLml0YS5nb3Yub20vY3AvMB0GA1UdDgQW
+BBTEQGLWcorMP0ZV3pLGhysPVWze2zAfBgNVHSMEGDAWgBTTHfPx8gZo1kB51LDE
+6E33LwcV3DANBgkqhkiG9w0BAQsFAAOCAgEA2dSl2fSLDc5mRcry8T1r7WHMCCbS
+BJi9ydtWnc1OJj+Z/CYLSRIn9VV+lHdehe53sbxboTSYVJIhXKuBFxGkRU299/po
+66wAhXybIiFUHhZQn/4J4oyDcI/actOQz34eqXiRycL3CQzomxq5eabb402Jkj+z
+RSofLrXHcy5hYUag6exyF1tcI2Bh3UoYaUk57/ueWNfg1tVG2YKTfL1IZJ47W8wf
+YRgVlT6q+xh8PvlhlZmecXwaFtOUG3sc2vQUbfmyP2//PxjMkZbCaU2zTAy7kSc6
+oEBT7sCNG5OZjxoJX548xyPfnL+qgfrcthQTo8cMCbKulFflzCVociEShjakSz+o
+TaJMEeII6R2BjcdDwDG7i21Et1eL/lEZm+a54+7HfoalFFclRDJIOjmSquSf6Oah
+12K0xdfiyEuD8D0NkuvjpcltdFpAKveZkMPywZsKdiD0+FV8VYyZs2tfVEWrrChN
+EqRQwcsb03mxnwdH+loHlZgz0RcwQcQTI6bZAP84/X9GJc7PZQDa1aK1hxZPr43y
+N8t4g92rOUI7eBIPNBNe9jndKfggj/cKg5UNNLGVeMhS4/0YG0KCx6TATOigzTAo
+PjqIIc3MJJS1UKDLSuVx5LPNAiPUBolhoBKbLlJwN+GsoQs2Z33j3GinycQ5XRUI
+A0JhfwRE3cKBpq0=
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            11:22:7b:e9:1f:b7:a9:f1:5b:bf:4d:56:bb:9d:87:c5:00:cc
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = OM, O = OMAN National PKI Center, CN = Government CA - 1
+        Validity
+            Not Before: Jun 12 00:00:00 2013 GMT
+            Not After : Jun 12 00:00:00 2023 GMT
+        Subject: C = OM, O = OMAN National PKI Center, OU = Government, CN = Device CA - 1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:ac:5d:62:32:ee:ec:2c:e0:81:95:7e:20:27:6b:
+                    1a:0a:c1:ad:b2:26:13:75:5f:e1:b9:ef:47:67:9a:
+                    16:8f:b5:8d:3e:c8:44:94:77:40:8a:3b:d5:d7:4d:
+                    da:d0:55:0c:42:49:13:ba:c4:fd:d8:ef:76:88:a6:
+                    0e:88:12:f5:30:6b:d9:07:a4:46:7d:b2:c8:6b:da:
+                    7f:0b:9c:47:84:51:79:be:de:83:1a:4e:a5:c8:c8:
+                    ed:93:12:1d:8e:cd:07:ad:d6:5b:e6:0d:a8:c8:4e:
+                    1c:7b:06:94:75:fc:31:52:0e:05:8b:ca:ad:2c:ff:
+                    c7:32:aa:89:bc:97:96:a7:50:24:98:89:37:08:0b:
+                    9f:32:3d:4b:08:e2:89:39:73:b5:e2:25:f9:9f:48:
+                    5c:62:29:3c:e6:d8:e8:2e:75:3f:31:13:03:99:99:
+                    fe:1c:c5:dc:d9:a6:36:90:9f:5a:5a:7c:62:2e:e5:
+                    ac:51:93:1e:9f:06:b2:d8:a2:47:0a:ad:ab:39:71:
+                    db:f5:d0:16:4b:ad:2f:f7:e3:f2:fe:db:10:2c:b2:
+                    08:70:87:f7:63:c7:e4:27:7f:c9:7f:66:73:de:44:
+                    2b:43:9e:2f:af:fe:b0:02:b6:e9:80:d4:be:a7:01:
+                    fe:6e:a3:50:ba:c1:5d:0a:cd:d7:0e:c5:f0:23:36:
+                    22:9a:b6:de:03:00:3c:16:2b:83:e4:5f:ca:78:7c:
+                    8a:84:88:7e:6c:30:e3:f8:cf:5d:8b:2c:cd:0a:26:
+                    ce:fc:80:fc:f5:42:c0:93:db:2d:91:cd:ab:01:27:
+                    07:37:d8:e8:b9:57:ac:5e:bd:18:73:74:dd:d8:31:
+                    4b:19:2b:9a:2d:17:bc:76:64:f1:a4:4c:dd:c0:40:
+                    b4:23:32:5e:e1:c0:27:67:84:89:5d:e5:64:2d:f2:
+                    35:5d:b2:0a:6c:c6:03:b5:5d:11:db:e7:a2:ff:11:
+                    c2:6e:13:60:ab:88:37:53:2d:df:d1:33:ce:4b:22:
+                    be:68:69:20:0b:18:00:2a:fd:72:ea:b6:6b:64:1d:
+                    ee:c1:78:fc:d7:e6:f6:ec:95:ef:01:46:0c:0a:a7:
+                    ed:4b:01:11:42:fe:af:36:76:b6:84:3c:f4:f0:5d:
+                    1b:df:e8:9c:1f:b0:c3:bd:57:ee:4b:9f:c7:05:23:
+                    6f:ff:a2:cd:f7:4a:da:a9:5e:73:8d:c6:fd:f2:a3:
+                    15:55:7c:16:4c:ce:9d:18:19:52:29:6d:11:3d:c9:
+                    5a:f3:35:0d:a0:a9:2b:35:d7:91:de:43:65:bf:0d:
+                    d2:20:7b:73:53:41:e6:4d:67:4b:44:b7:ec:c7:96:
+                    43:f3:d3:74:87:91:5a:03:0b:07:d5:37:e1:19:37:
+                    05:6e:ef
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.ita.gov.om/crl/government-ca-1.crl
+
+                Full Name:
+                  URI:ldap://ldap.pki.ita.gov.om/CN=Government%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?certificateRevocationList;binary?base?objectClass=pkiCA
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.ita.gov.om/CACerts/government-ca-1.p7c
+                CA Issuers - URI:ldap://ldap.pki.ita.gov.om/CN=Government%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?cACertificate;binary?base?objectClass=pkiCA
+
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://pki.ita.gov.om/cp/
+
+            X509v3 Subject Key Identifier: 
+                D5:51:FA:28:56:45:D9:4C:6B:2E:5D:41:72:A2:8A:BF:97:32:4A:37
+            X509v3 Authority Key Identifier: 
+                keyid:D1:FD:49:97:2C:10:70:DE:3D:51:EB:81:71:EE:CE:9D:AE:47:04:C5
+
+    Signature Algorithm: sha256WithRSAEncryption
+         d9:64:80:ec:31:f6:40:18:88:ee:35:57:a2:5a:b8:ec:d2:52:
+         4e:65:c6:a6:84:31:53:e9:50:3b:d9:d1:02:6a:a4:12:b8:ff:
+         45:cb:10:de:ba:0e:8d:b2:91:be:de:c5:83:03:aa:52:20:66:
+         8e:26:af:3a:24:f2:88:57:33:55:03:bb:96:a2:94:5c:b0:e8:
+         15:9b:ad:f8:91:25:58:13:dd:5b:d5:45:87:3e:81:c9:17:d0:
+         4d:b3:ae:dc:3d:d1:6c:c5:c4:69:ce:e9:a8:9b:f3:db:ac:a9:
+         e7:7c:9e:fc:4a:c5:98:7f:2f:dd:08:a0:9f:31:45:59:52:61:
+         36:f6:19:b6:83:f8:3f:0a:19:90:ee:a0:1f:96:0d:c4:78:23:
+         35:01:48:6e:0c:7c:a7:ac:2b:ad:5e:7d:6e:4f:31:6e:a9:8f:
+         b9:b2:8a:b3:eb:3c:31:c5:44:98:49:52:3e:47:76:80:b2:04:
+         1d:a5:78:6b:c8:10:62:b4:bd:58:9d:cb:50:4e:83:28:de:4e:
+         e4:aa:f7:1f:03:a9:0c:49:a3:98:21:64:53:6e:9e:7c:1e:60:
+         3e:3a:f3:09:32:53:96:77:a1:28:cf:62:c0:20:7a:d4:c6:b0:
+         43:08:85:27:42:01:97:ca:af:4e:2a:9b:a7:a5:15:63:42:0d:
+         57:b2:b2:3e:9a:06:75:66:97:74:0d:5b:eb:0d:13:2d:4a:70:
+         da:67:1d:cc:9c:8d:d6:04:f4:f3:e6:2f:eb:f0:de:a9:ae:b6:
+         01:fb:7f:51:2e:f1:c2:66:5e:32:00:05:2d:fd:13:ee:38:9d:
+         66:ca:2d:a7:31:74:c7:6d:5f:1a:43:99:2b:9a:fe:2b:73:46:
+         a8:3b:a8:00:6f:a3:77:f4:14:83:cb:69:07:9b:61:b1:9b:2a:
+         ae:7f:c3:e0:a9:c1:38:1e:85:e0:9c:64:74:cb:09:64:02:79:
+         38:46:94:33:22:61:9a:c8:88:41:71:24:95:fa:d5:50:82:1d:
+         c8:c4:c8:25:77:d0:25:ff:1a:c5:24:ca:6f:83:f9:8c:30:67:
+         9d:ac:c7:84:f1:0f:04:59:67:bb:4c:04:9c:8c:43:27:65:88:
+         70:6d:12:64:00:aa:c4:02:16:f9:b6:7f:af:d4:ef:61:d8:cc:
+         c5:49:b1:df:c6:41:fc:00:60:e3:5b:93:a2:17:92:b8:87:ee:
+         00:62:44:ba:88:c9:a3:2b:cc:77:95:56:3d:38:35:86:e8:aa:
+         e2:c5:ac:54:1e:d7:ab:47:e7:cb:a3:77:b6:35:d1:2d:bd:2a:
+         d2:43:d6:d7:9e:f6:2e:a7:63:e9:3c:7e:0c:74:43:48:37:02:
+         b7:c4:09:7a:be:f0:0d:b8
+-----BEGIN CERTIFICATE-----
+MIIHpjCCBY6gAwIBAgISESJ76R+3qfFbv01Wu52HxQDMMA0GCSqGSIb3DQEBCwUA
+MEwxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGjAYBgNVBAMMEUdvdmVybm1lbnQgQ0EgLSAxMB4XDTEzMDYxMjAwMDAwMFoX
+DTIzMDYxMjAwMDAwMFowXTELMAkGA1UEBhMCT00xITAfBgNVBAoMGE9NQU4gTmF0
+aW9uYWwgUEtJIENlbnRlcjETMBEGA1UECwwKR292ZXJubWVudDEWMBQGA1UEAwwN
+RGV2aWNlIENBIC0gMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKxd
+YjLu7CzggZV+ICdrGgrBrbImE3Vf4bnvR2eaFo+1jT7IRJR3QIo71ddN2tBVDEJJ
+E7rE/djvdoimDogS9TBr2QekRn2yyGvafwucR4RReb7egxpOpcjI7ZMSHY7NB63W
+W+YNqMhOHHsGlHX8MVIOBYvKrSz/xzKqibyXlqdQJJiJNwgLnzI9SwjiiTlzteIl
++Z9IXGIpPObY6C51PzETA5mZ/hzF3NmmNpCfWlp8Yi7lrFGTHp8GstiiRwqtqzlx
+2/XQFkutL/fj8v7bECyyCHCH92PH5Cd/yX9mc95EK0OeL6/+sAK26YDUvqcB/m6j
+ULrBXQrN1w7F8CM2Ipq23gMAPBYrg+Rfynh8ioSIfmww4/jPXYsszQomzvyA/PVC
+wJPbLZHNqwEnBzfY6LlXrF69GHN03dgxSxkrmi0XvHZk8aRM3cBAtCMyXuHAJ2eE
+iV3lZC3yNV2yCmzGA7VdEdvnov8Rwm4TYKuIN1Mt39EzzksivmhpIAsYACr9cuq2
+a2Qd7sF4/Nfm9uyV7wFGDAqn7UsBEUL+rzZ2toQ89PBdG9/onB+ww71X7kufxwUj
+b/+izfdK2qlec43G/fKjFVV8FkzOnRgZUiltET3JWvM1DaCpKzXXkd5DZb8N0iB7
+c1NB5k1nS0S37MeWQ/PTdIeRWgMLB9U34Rk3BW7vAgMBAAGjggJvMIICazAOBgNV
+HQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADCB3wYDVR0fBIHXMIHUMDOg
+MaAvhi1odHRwOi8vcGtpLml0YS5nb3Yub20vY3JsL2dvdmVybm1lbnQtY2EtMS5j
+cmwwgZyggZmggZaGgZNsZGFwOi8vbGRhcC5wa2kuaXRhLmdvdi5vbS9DTj1Hb3Zl
+cm5tZW50JTIwQ0ElMjAtJTIwMSxPPU9NQU4lMjBOYXRpb25hbCUyMFBLSSUyMENl
+bnRlcixDPU9NP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/
+b2JqZWN0Q2xhc3M9cGtpQ0EwgeYGCCsGAQUFBwEBBIHZMIHWMD0GCCsGAQUFBzAC
+hjFodHRwOi8vcGtpLml0YS5nb3Yub20vQ0FDZXJ0cy9nb3Zlcm5tZW50LWNhLTEu
+cDdjMIGUBggrBgEFBQcwAoaBh2xkYXA6Ly9sZGFwLnBraS5pdGEuZ292Lm9tL0NO
+PUdvdmVybm1lbnQlMjBDQSUyMC0lMjAxLE89T01BTiUyME5hdGlvbmFsJTIwUEtJ
+JTIwQ2VudGVyLEM9T00/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnk/YmFzZT9vYmplY3RD
+bGFzcz1wa2lDQTA6BgNVHSAEMzAxMC8GBFUdIAAwJzAlBggrBgEFBQcCARYZaHR0
+cDovL3BraS5pdGEuZ292Lm9tL2NwLzAdBgNVHQ4EFgQU1VH6KFZF2UxrLl1BcqKK
+v5cySjcwHwYDVR0jBBgwFoAU0f1JlywQcN49UeuBce7Ona5HBMUwDQYJKoZIhvcN
+AQELBQADggIBANlkgOwx9kAYiO41V6JauOzSUk5lxqaEMVPpUDvZ0QJqpBK4/0XL
+EN66Do2ykb7exYMDqlIgZo4mrzok8ohXM1UDu5ailFyw6BWbrfiRJVgT3VvVRYc+
+gckX0E2zrtw90WzFxGnO6aib89usqed8nvxKxZh/L90IoJ8xRVlSYTb2GbaD+D8K
+GZDuoB+WDcR4IzUBSG4MfKesK61efW5PMW6pj7myirPrPDHFRJhJUj5HdoCyBB2l
+eGvIEGK0vVidy1BOgyjeTuSq9x8DqQxJo5ghZFNunnweYD468wkyU5Z3oSjPYsAg
+etTGsEMIhSdCAZfKr04qm6elFWNCDVeysj6aBnVml3QNW+sNEy1KcNpnHcycjdYE
+9PPmL+vw3qmutgH7f1Eu8cJmXjIABS39E+44nWbKLacxdMdtXxpDmSua/itzRqg7
+qABvo3f0FIPLaQebYbGbKq5/w+CpwTgeheCcZHTLCWQCeThGlDMiYZrIiEFxJJX6
+1VCCHcjEyCV30CX/GsUkym+D+YwwZ52sx4TxDwRZZ7tMBJyMQydliHBtEmQAqsQC
+Fvm2f6/U72HYzMVJsd/GQfwAYONbk6IXkriH7gBiRLqIyaMrzHeVVj04NYboquLF
+rFQe16tH58ujd7Y10S29KtJD1tee9i6nY+k8fgx0Q0g3ArfECXq+8A24
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            11:22:92:e0:a8:09:77:32:88:df:74:78:3c:75:7f:17:bf:92
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = OM, O = OMAN National PKI Center, CN = Commercial CA - 1
+        Validity
+            Not Before: Jun 12 00:00:00 2013 GMT
+            Not After : Jun 12 00:00:00 2023 GMT
+        Subject: C = OM, O = OMAN National PKI Center, OU = Commercial, CN = Mobile CA - 1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:a3:45:df:cb:2c:07:ca:70:d2:07:82:72:c9:0b:
+                    ec:60:f9:8d:bc:9e:47:9b:6f:f4:95:89:68:62:07:
+                    da:30:a4:23:70:de:0f:88:31:8c:5f:6e:4b:3e:a9:
+                    48:39:1b:46:44:08:58:cc:ff:f2:0e:74:81:1b:32:
+                    4f:57:29:a5:59:08:2d:27:86:b6:c3:7d:c6:b5:9f:
+                    ff:8f:63:34:da:c5:c5:af:55:e3:7d:da:3d:6b:cb:
+                    e7:2b:34:19:29:4d:db:dd:26:10:1c:17:1d:e1:84:
+                    48:97:fa:e8:33:f1:8f:f9:1f:ef:97:68:59:0b:a4:
+                    e3:ce:a7:3d:63:6a:e6:88:ee:62:1e:d1:3c:8b:5f:
+                    b4:4c:3e:65:ec:54:86:29:9b:bd:a3:b8:14:9e:ea:
+                    d6:ff:f0:23:1d:ea:74:5b:04:ff:ea:ed:ad:dc:2c:
+                    16:18:d6:51:53:3c:eb:da:76:c5:ea:b1:8c:c1:8e:
+                    39:b4:75:5f:92:93:eb:98:b1:d5:1f:e3:45:b5:43:
+                    53:10:06:ca:8d:b4:f0:a3:d2:dd:0a:c1:ce:41:bc:
+                    74:8c:f7:00:ba:24:19:17:47:5a:0d:10:8e:78:a8:
+                    15:e4:ee:38:d3:75:54:39:3c:86:ea:47:9b:fe:5c:
+                    53:c5:92:ac:79:f5:50:ca:3d:9b:c9:08:4a:ef:16:
+                    7d:cc:b5:74:b4:10:90:4b:46:6f:d0:a0:69:88:58:
+                    d2:06:f0:c2:13:24:b8:70:b4:2d:a6:8c:bc:de:bd:
+                    6d:f3:20:f3:c8:f9:3a:44:56:cc:91:fe:88:95:b4:
+                    21:50:52:b0:10:0b:64:76:1d:cd:23:fa:d3:80:9a:
+                    36:2b:52:28:2c:de:52:fa:ed:f2:ba:a0:e7:9a:5e:
+                    d0:0c:ef:7d:52:30:a5:3c:77:e2:cc:1e:89:e2:1c:
+                    a1:4c:6f:82:55:3b:14:86:c8:2e:6c:e0:17:55:cf:
+                    1e:ae:0a:0f:8c:08:fc:57:13:d5:30:01:6e:bc:73:
+                    c7:75:8e:45:61:62:7d:2e:ef:2b:5e:d3:c4:a3:9f:
+                    76:04:97:16:d9:0b:b9:c8:13:60:3b:a3:81:fd:b1:
+                    e7:49:15:83:43:e9:ea:8f:9c:f1:ee:eb:51:a7:d7:
+                    9a:24:55:41:6a:30:54:d8:70:55:66:b3:b1:5b:67:
+                    a9:09:4a:57:a1:38:d5:3a:08:f3:12:12:c2:66:ec:
+                    92:ef:67:ac:1f:f8:7f:eb:f2:d8:7b:43:e6:a9:7f:
+                    8a:cb:cd:a6:29:98:ee:8f:a0:ca:3b:7a:52:d3:e2:
+                    23:22:80:1e:4c:bf:95:f3:21:8c:05:ae:bb:e5:e2:
+                    01:a0:e3:f5:59:fb:81:f6:0d:80:84:a0:93:b9:3f:
+                    c5:bc:43
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.ita.gov.om/crl/commercial-ca-1.crl
+
+                Full Name:
+                  URI:ldap://ldap.pki.ita.gov.om/CN=Commercial%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?certificateRevocationList;binary?base?objectClass=pkiCA
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.ita.gov.om/CACerts/commercial-ca-1.p7c
+                CA Issuers - URI:ldap://ldap.pki.ita.gov.om/CN=Commercial%20CA%20-%201,O=OMAN%20National%20PKI%20Center,C=OM?cACertificate;binary?base?objectClass=pkiCA
+
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: http://pki.ita.gov.om/cp/
+
+            X509v3 Subject Key Identifier: 
+                D9:94:2B:11:30:75:C1:14:E1:EE:C5:71:AA:31:85:9E:08:12:4B:41
+            X509v3 Authority Key Identifier: 
+                keyid:C4:40:62:D6:72:8A:CC:3F:46:55:DE:92:C6:87:2B:0F:55:6C:DE:DB
+
+    Signature Algorithm: sha256WithRSAEncryption
+         67:93:2a:d3:50:2f:fb:5d:28:45:a3:01:40:02:a6:c1:cd:54:
+         53:a8:82:6e:23:b0:2e:49:6a:c7:9e:a2:ee:67:9f:5b:08:0e:
+         18:53:49:d7:68:c1:fd:e5:74:96:b8:18:3b:ab:7e:c3:3c:24:
+         b8:77:5c:c0:14:bd:0a:06:be:9e:b7:88:af:38:bb:ec:09:90:
+         4f:af:b0:55:c6:54:eb:3a:38:19:eb:15:be:8c:43:c4:64:02:
+         23:4b:4f:5e:11:aa:00:9e:22:77:f0:5c:54:f4:f8:fd:df:b8:
+         64:8f:ec:26:88:30:b5:73:9c:c5:a0:42:d3:29:47:61:ad:4e:
+         ae:8a:ab:f9:92:bd:46:bb:7b:69:51:cf:08:3a:57:cc:37:50:
+         27:f1:7a:79:b5:e6:b3:62:f8:2d:10:25:ff:6b:73:72:68:fc:
+         76:fa:7b:48:10:98:a9:e5:98:88:8b:92:02:40:a1:44:23:c6:
+         43:4b:7c:24:6e:d6:75:44:dd:c7:75:c9:fa:67:ad:02:99:7f:
+         ec:a8:14:9d:7e:2b:66:38:a5:6b:9f:10:3c:63:70:18:54:fa:
+         d2:1e:29:ba:ef:04:61:ac:01:52:2b:d7:f3:25:cf:4f:8f:8e:
+         3a:96:14:dc:ef:9a:55:51:0e:1d:1b:19:45:46:df:e4:d1:a7:
+         8f:e1:bb:e5:ab:2e:2c:e3:04:23:21:96:e1:a4:3c:8f:84:65:
+         b6:06:0c:8e:53:11:70:3e:0e:6c:ad:66:71:2a:13:cf:32:37:
+         f6:1f:d4:b7:6a:85:d7:53:b3:f4:48:df:4d:9a:8a:24:f2:c8:
+         43:00:82:63:98:e4:04:ec:6c:ac:1c:cf:00:a5:0e:19:a8:0c:
+         38:09:c1:50:c6:13:cc:51:8a:11:a4:75:55:43:39:b5:7b:f7:
+         c6:58:f5:01:0d:d9:d4:a3:cd:c4:c1:aa:3e:28:d3:fa:c7:44:
+         2e:f1:be:b7:00:45:f0:36:2d:b4:28:d0:f7:89:f8:a9:45:51:
+         a8:8e:b1:57:09:db:f1:94:97:a0:fd:46:58:b0:83:4e:6f:db:
+         cf:6f:c1:13:dc:25:7e:9b:0e:ea:e3:ba:9f:e4:2a:63:55:fa:
+         9f:e6:f3:9c:bf:6e:44:2a:cd:93:11:e5:4a:e3:17:32:52:d0:
+         2d:cd:d0:23:e6:35:58:57:64:8a:ce:0b:18:f6:c4:ef:ca:3b:
+         55:20:67:c8:eb:10:c8:71:f9:51:73:c1:98:5b:de:7b:4d:54:
+         95:20:f0:13:0b:ec:71:11:49:aa:b3:66:a8:34:51:f6:f8:65:
+         42:04:48:b6:c4:b5:d3:b2:7c:77:1d:56:48:f8:6a:3f:bb:7b:
+         62:79:91:48:3f:61:b6:63
+-----BEGIN CERTIFICATE-----
+MIIHpjCCBY6gAwIBAgISESKS4KgJdzKI33R4PHV/F7+SMA0GCSqGSIb3DQEBCwUA
+MEwxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGjAYBgNVBAMMEUNvbW1lcmNpYWwgQ0EgLSAxMB4XDTEzMDYxMjAwMDAwMFoX
+DTIzMDYxMjAwMDAwMFowXTELMAkGA1UEBhMCT00xITAfBgNVBAoMGE9NQU4gTmF0
+aW9uYWwgUEtJIENlbnRlcjETMBEGA1UECwwKQ29tbWVyY2lhbDEWMBQGA1UEAwwN
+TW9iaWxlIENBIC0gMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKNF
+38ssB8pw0geCcskL7GD5jbyeR5tv9JWJaGIH2jCkI3DeD4gxjF9uSz6pSDkbRkQI
+WMz/8g50gRsyT1cppVkILSeGtsN9xrWf/49jNNrFxa9V433aPWvL5ys0GSlN290m
+EBwXHeGESJf66DPxj/kf75doWQuk486nPWNq5ojuYh7RPItftEw+ZexUhimbvaO4
+FJ7q1v/wIx3qdFsE/+rtrdwsFhjWUVM869p2xeqxjMGOObR1X5KT65ix1R/jRbVD
+UxAGyo208KPS3QrBzkG8dIz3ALokGRdHWg0QjnioFeTuONN1VDk8hupHm/5cU8WS
+rHn1UMo9m8kISu8Wfcy1dLQQkEtGb9CgaYhY0gbwwhMkuHC0LaaMvN69bfMg88j5
+OkRWzJH+iJW0IVBSsBALZHYdzSP604CaNitSKCzeUvrt8rqg55pe0AzvfVIwpTx3
+4sweieIcoUxvglU7FIbILmzgF1XPHq4KD4wI/FcT1TABbrxzx3WORWFifS7vK17T
+xKOfdgSXFtkLucgTYDujgf2x50kVg0Pp6o+c8e7rUafXmiRVQWowVNhwVWazsVtn
+qQlKV6E41ToI8xISwmbsku9nrB/4f+vy2HtD5ql/isvNpimY7o+gyjt6UtPiIyKA
+Hky/lfMhjAWuu+XiAaDj9Vn7gfYNgISgk7k/xbxDAgMBAAGjggJvMIICazAOBgNV
+HQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADCB3wYDVR0fBIHXMIHUMDOg
+MaAvhi1odHRwOi8vcGtpLml0YS5nb3Yub20vY3JsL2NvbW1lcmNpYWwtY2EtMS5j
+cmwwgZyggZmggZaGgZNsZGFwOi8vbGRhcC5wa2kuaXRhLmdvdi5vbS9DTj1Db21t
+ZXJjaWFsJTIwQ0ElMjAtJTIwMSxPPU9NQU4lMjBOYXRpb25hbCUyMFBLSSUyMENl
+bnRlcixDPU9NP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/
+b2JqZWN0Q2xhc3M9cGtpQ0EwgeYGCCsGAQUFBwEBBIHZMIHWMD0GCCsGAQUFBzAC
+hjFodHRwOi8vcGtpLml0YS5nb3Yub20vQ0FDZXJ0cy9jb21tZXJjaWFsLWNhLTEu
+cDdjMIGUBggrBgEFBQcwAoaBh2xkYXA6Ly9sZGFwLnBraS5pdGEuZ292Lm9tL0NO
+PUNvbW1lcmNpYWwlMjBDQSUyMC0lMjAxLE89T01BTiUyME5hdGlvbmFsJTIwUEtJ
+JTIwQ2VudGVyLEM9T00/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnk/YmFzZT9vYmplY3RD
+bGFzcz1wa2lDQTA6BgNVHSAEMzAxMC8GBFUdIAAwJzAlBggrBgEFBQcCARYZaHR0
+cDovL3BraS5pdGEuZ292Lm9tL2NwLzAdBgNVHQ4EFgQU2ZQrETB1wRTh7sVxqjGF
+nggSS0EwHwYDVR0jBBgwFoAUxEBi1nKKzD9GVd6SxocrD1Vs3tswDQYJKoZIhvcN
+AQELBQADggIBAGeTKtNQL/tdKEWjAUACpsHNVFOogm4jsC5Jaseeou5nn1sIDhhT
+Sddowf3ldJa4GDurfsM8JLh3XMAUvQoGvp63iK84u+wJkE+vsFXGVOs6OBnrFb6M
+Q8RkAiNLT14RqgCeInfwXFT0+P3fuGSP7CaIMLVznMWgQtMpR2GtTq6Kq/mSvUa7
+e2lRzwg6V8w3UCfxenm15rNi+C0QJf9rc3Jo/Hb6e0gQmKnlmIiLkgJAoUQjxkNL
+fCRu1nVE3cd1yfpnrQKZf+yoFJ1+K2Y4pWufEDxjcBhU+tIeKbrvBGGsAVIr1/Ml
+z0+PjjqWFNzvmlVRDh0bGUVG3+TRp4/hu+WrLizjBCMhluGkPI+EZbYGDI5TEXA+
+DmytZnEqE88yN/Yf1LdqhddTs/RI302aiiTyyEMAgmOY5ATsbKwczwClDhmoDDgJ
+wVDGE8xRihGkdVVDObV798ZY9QEN2dSjzcTBqj4o0/rHRC7xvrcARfA2LbQo0PeJ
++KlFUaiOsVcJ2/GUl6D9Rliwg05v289vwRPcJX6bDurjup/kKmNV+p/m85y/bkQq
+zZMR5UrjFzJS0C3N0CPmNVhXZIrOCxj2xO/KO1UgZ8jrEMhx+VFzwZhb3ntNVJUg
+8BML7HERSaqzZqg0Ufb4ZUIESLbEtdOyfHcdVkj4aj+7e2J5kUg/YbZj
+-----END CERTIFICATE-----
+subject=/C=OM/O=OMAN National PKI Center/OU=Government/CN=eID CA - 1
+issuer=/C=OM/O=OMAN National PKI Center/CN=Government CA - 1
+-----BEGIN CERTIFICATE-----
+MIIHozCCBYugAwIBAgISESIGTZXlpX4UwAgCq3VqvFOnMA0GCSqGSIb3DQEBCwUA
+MEwxCzAJBgNVBAYTAk9NMSEwHwYDVQQKDBhPTUFOIE5hdGlvbmFsIFBLSSBDZW50
+ZXIxGjAYBgNVBAMMEUdvdmVybm1lbnQgQ0EgLSAxMB4XDTEzMDYxMjAwMDAwMFoX
+DTIzMDYxMjAwMDAwMFowWjELMAkGA1UEBhMCT00xITAfBgNVBAoMGE9NQU4gTmF0
+aW9uYWwgUEtJIENlbnRlcjETMBEGA1UECwwKR292ZXJubWVudDETMBEGA1UEAwwK
+ZUlEIENBIC0gMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANUI2Ri4
+NMH8IY5/38DVeVs2GO212TXuI/c/rTeV2hTqIBvYHUB1M3D4GLpRMvzG4KaPCmL9
+jMOgTa8c35swadhsT9X/XIl6yR6RziFSczQhzoWCGg/tuUrS/rKwrfSFz8p3kBRu
+Qm50DCIRlwdrpObL3uAYw5HAszJOVpJ0WyhGG7gALGDLoAAWM3AIK/lo6gIB7/g8
+2HcuzoDvqVPKK+sgwi0eHe7qBznokj9xeLVsg2gfFcV9cKEbuYpFYEiIBM7Sqv68
+VoAG3u0DhkItfP50uSl/h8IP483ivrICEFXe/sDvrBIWaGxSJwxYiTAV55/noZG7
+1b23LKZ1ryYi1LMWdHlFcr5eZ8DxyuO2HcxjofLxE+coQ9LXZjCMNd7zF7rtlGgx
+xeg1J0Sc+ssmo0K3WAW8PagwiitEovIOK4yVkD63E+F53jNTbAEsVFo5KiRAQsIn
+WQpIQGbxBOvVXwweXoCitULujiCRY/mBbUGOjF0JKAw0FNfJ/4945p1a4lZAebxr
+kES6mU7T6aqkuLG9EwcC469yR0mePYZDdrgROSpgZHXsSY/qnaYOWLSpVLbd5uGM
+HvCQErdjrGhJqF2+Db2mCq/D4ODeIOyhZZRjb8iFZgB5U2E/YvWRd8ZJKCEo0TOe
+7oFiQ9J7TMmYpC6DUP9d4a+TGVcYkv+SH8KXAgMBAAGjggJvMIICazAOBgNVHQ8B
+Af8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADCB3wYDVR0fBIHXMIHUMDOgMaAv
+hi1odHRwOi8vcGtpLml0YS5nb3Yub20vY3JsL2dvdmVybm1lbnQtY2EtMS5jcmww
+gZyggZmggZaGgZNsZGFwOi8vbGRhcC5wa2kuaXRhLmdvdi5vbS9DTj1Hb3Zlcm5t
+ZW50JTIwQ0ElMjAtJTIwMSxPPU9NQU4lMjBOYXRpb25hbCUyMFBLSSUyMENlbnRl
+cixDPU9NP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/b2Jq
+ZWN0Q2xhc3M9cGtpQ0EwgeYGCCsGAQUFBwEBBIHZMIHWMD0GCCsGAQUFBzAChjFo
+dHRwOi8vcGtpLml0YS5nb3Yub20vQ0FDZXJ0cy9nb3Zlcm5tZW50LWNhLTEucDdj
+MIGUBggrBgEFBQcwAoaBh2xkYXA6Ly9sZGFwLnBraS5pdGEuZ292Lm9tL0NOPUdv
+dmVybm1lbnQlMjBDQSUyMC0lMjAxLE89T01BTiUyME5hdGlvbmFsJTIwUEtJJTIw
+Q2VudGVyLEM9T00/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnk/YmFzZT9vYmplY3RDbGFz
+cz1wa2lDQTA6BgNVHSAEMzAxMC8GBFUdIAAwJzAlBggrBgEFBQcCARYZaHR0cDov
+L3BraS5pdGEuZ292Lm9tL2NwLzAdBgNVHQ4EFgQUspcTFZRQn6c1pdckO59zHsaw
+lwswHwYDVR0jBBgwFoAU0f1JlywQcN49UeuBce7Ona5HBMUwDQYJKoZIhvcNAQEL
+BQADggIBADIjQtQhSqP/iKGs4Xm+qPWSPUzVBDRhdwbTHmCxynH3hX9aUDKYSYoN
+mEn5GAPqXbMBkYp6e4l5D63LyPVtzXuP6XhpwmcFXDfGerGs2EcV2/pzLNLWnvrG
+n3+leUV5TUzUjiGnyBPgZZyDmgE44lJ5VP3QgTjgfW789Puh6yyfIgxklwN3zoe/
+NlbHy3wzbl9kQoDmB3WbPyI9Gc1T1ABi7p9FUBBDJvZRojzOb0cWWofMQEdRV4S9
+MJEqHXHoTiui9M7z9kMqBazZX/nL+PS4wH6mq73AtTVWYAV96tvgD8rihbSMQrRH
+EyOWPl/c4g023VMMAn+7WWTlA82gBe8O9q49nB+mMC861yjIzbPHAJiN30kmOqTJ
+aJlosXWFNNzW7jGrJZce/xHvU7qc7xvFiPzQa2g7mr25+xwBjkt1C4E43gap7U8z
+69ohXb2rc0WU+KT10yoJ7eWzqeyMnjk9MfU60cO2G/Y3Xg95TOBXQDmQcispCOsH
+Flwq36g8t7f4IWkkXQluJMfG+BE4K04RwFXWmVy51vK+KzuPhZ1Kqt9Rg9th7wPi
+GBnLv+L+4To0tMbA/KkWTbd3ZYLCT1WY2hfjLrf1Q3Po+tNmiNfdvNHwcl6o6c+B
+d593LvcrCXkMGDEXaQz5VuE4N5lLfb9vcvJ2ZW2F1W8dX4LfmCaB
+-----END CERTIFICATE-----
+
