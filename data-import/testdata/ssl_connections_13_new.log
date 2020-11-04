@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl_connections
+#open	2018-04-23-04-22-31
+#fields	ts	orig_resp_hash	orig_sni_hash	server	server_p	version_num	client_version	client_ciphers	cipher_num	sni	orig_session_hash	resp_session_hash	ticket_lifetime_hint	ssl_client_exts	ssl_client_ext_lens	ssl_server_exts	ssl_server_ext_lens	server_certs	packet_loss	analysis_failure_flag	ssl_established	client_bytes	server_bytes	conn_duration	conn_history	dh_param_size	point_formats	client_curves	curve	orig_alpn	resp_alpn	resumed	alert	stapled_ocsp	num_client_certs	ct_logidsha1	ct_valid	ct_invalid_hash	ct_source	ct_timestamp	ct_hashalg	ct_sigalg	ct_siglen	ct_map_sha1	cert_valid	supported_versions	server_supported_version	psk_key_exchange_modes	client_ccs	server_ccs
+#types	time	string	string	addr	count	count	count	vector[count]	count	vector[string]	string	string	count	vector[count]	vector[count]	vector[count]	vector[count]	vector[string]	bool	bool	bool	count	count	interval	string	count	vector[count]	vector[count]	count	vector[string]	vector[string]	bool	vector[count]	count	count	vector[string]	vector[count]	vector[string]	vector[count]	vector[count]	vector[count]	vector[count]	vector[count]	vector[string]	int	vector[count]	count	vector[count]	bool	bool
+1520820013.621497	ab5439f2130aad5c961205fb72782ed73a1ce88b	c20c877b66c2c890dea1f9f3581f4636b4ddabac	52.32.149.186	443	771	771	39578,4865,4866,4867,49195,49199,49196,49200,52393,52392,49171,49172,156,157,47,53,10	4865	tls13.crypto.mozilla.org	8a897439261b6275b06b8b1b59c114cd	8a897439261b6275b06b8b1b59c114cd	-	19018,65281,0,23,35,13,5,18,16,30032,11,51,45,43,10,24,31354,21	0,1,29,0,0,20,5,0,14,0,2,43,2,11,10,4,1,187	51,43	36,2	(empty)	F	-	T	581	3239	0.479523	ShADadFfRR	-	0	39578,29,23,24	-	h2,http/1.1	-	T	-	-	0	-	-	-	-	-	-	-	-	-	-	56026,32535,771,770,769	32535	1	T	T
+# this one is manually edited to look like one where we did not parse the server version out.
+1520820013.621497	ab5439f2130aad5c961205fb72782ed73a1ce88b	c20c877b66c2c890dea1f9f3581f4636b4ddabac	52.32.149.186	443	771	771	39578,4865,4866,4867,49195,49199,49196,49200,52393,52392,49171,49172,156,157,47,53,10	4865	tls13.crypto.mozilla.org	8a897439261b6275b06b8b1b59c114cd	8a897439261b6275b06b8b1b59c114cd	-	19018,65281,0,23,35,13,5,18,16,30032,11,51,45,43,10,24,31354,21	0,1,29,0,0,20,5,0,14,0,2,43,2,11,10,4,1,187	51,43	36,2	(empty)	F	-	T	581	3239	0.479523	ShADadFfRR	-	0	39578,29,23,24	-	h2,http/1.1	-	T	-	-	0	-	-	-	-	-	-	-	-	-	-	56026,32535,771,770,769	-	1	T	T
+#close	2018-04-23-04-22-31
